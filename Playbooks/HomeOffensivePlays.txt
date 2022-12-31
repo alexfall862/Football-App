@@ -6,3 +6,4 @@ Normal,Pass2, 1
 Normal,Run1, 1
 Normal,Run2, 1
 XP,ExtraPoint, 1
+FG, Field Goal, 1

@@ -30,12 +30,32 @@ namespace FootballApp
                     + "HPC: " + String.Format("{0, 14}", e.HPlayCall) + "\t"
                     + "APC: " + String.Format("{0, 14}", e.APlayCall) + "\t"
                     + "Yardage: " + e.Yardage + "\t"
-                    + "Touchdown: " + String.Format("{0, 6}", e.Td) + "\t"
+                    + "Touchdown: " + TouchdownTextEval(e._td, e._dtd) + "\t"
                     + "Home: " + String.Format("{0, 3}", e.HtScore) + "\t"
                     + "Away: " + String.Format("{0, 3}", e.AtScore)
                     );
                 //Console.WriteLine("Previous Play Test: " + e.PlayID);
+
             }
+        }
+
+        public string TouchdownTextEval(bool td, bool dtd)
+        {
+            if (td == true) 
+            {
+                return String.Format("{0, 5}", "OTrue");
+            } else if (dtd == true) 
+            {
+                return String.Format("{0, 5}", "DTrue");
+            }
+            else if (td == true & dtd == true) 
+            {
+                return String.Format("{0, 5}", "ERROR");
+            } else if (td == false & dtd == false)
+            {
+                return String.Format("{0, 5}", "False");
+            }
+            return String.Format("ERROR2");
         }
 
         public void SaveToTxt(List<FootballApp.PlayStatus> a)
@@ -56,6 +76,7 @@ namespace FootballApp
                     "Td" + "," +
                     "DTd" + "," +
                     "FgGood" + "," +
+                    "FgBad" + "," +
                     "Safety" + "," +
                     "DSafety" + "," +
                     "XpGood" + "," +
@@ -75,6 +96,7 @@ namespace FootballApp
                     "APlayCall" + "," +
                     "PreSnapRunoff" + "," +
                     "PlayLength" +
+                    "Return Yards" +
                     Environment.NewLine
                     );
 
@@ -94,6 +116,7 @@ namespace FootballApp
                         e.Td.ToString() + "," +
                         e.DTd.ToString() + "," +
                         e.FgGood.ToString() + "," +
+                        e.FgBad.ToString() + "," +
                         e.Safety.ToString() + "," + 
                         e.DSafety.ToString() + "," + 
                         e.XpGood.ToString() + "," + 
@@ -112,7 +135,8 @@ namespace FootballApp
                         e.HPlayCall.ToString() + "," + 
                         e.APlayCall.ToString() + "," + 
                         e.PreSnapRunoff.ToString() + "," + 
-                        e.PlayLength.ToString() +
+                        e.PlayLength.ToString() + "," +
+                        e.KPReturnYards.ToString() +
                         Environment.NewLine
                         );
                 }

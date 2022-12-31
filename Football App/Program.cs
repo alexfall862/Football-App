@@ -6,6 +6,7 @@ namespace FootballApp
     {
         static void Main()
         {
+            //Decisions d = new Decisions();
             MathforFootball mf = new MathforFootball();
             PlaybookMaker pm = new PlaybookMaker();
             GameValues gv = new GameValues();
@@ -26,7 +27,7 @@ namespace FootballApp
 
                 for (gv.Time = gv.QuarterLength; gv.Quarter >= 5 & gv.Time >= 1 & gv.HtScore == gv.AtScore || gv.Td == true || gv.DTd == true || gv.Quarter < 5 &  gv.Time >= 1;)
                 {
-                    pi.PlaySetup();
+                    pi.PlaySetup(ListofPlayStatus);
                     pp.PlayCallChooser(pm.PlayList, gv.PlayType, gv.PlayID, gv.HomePossession);
                     pp.PlayCallReactor(pm.PlayList, gv.PlayType, gv.PlayID, gv.HomePossession);
                     //Console.WriteLine(GameValues._hplaycalltype + GameValues._hplaycall);
@@ -68,7 +69,10 @@ namespace FootballApp
                         gv.APlayCall,
                         gv.PreSnapRunoff,
                         gv.PlayLength,
-                        gv.ReturnYards
+                        gv.KPReturnYards,
+                        gv.DReturnYards,
+                        gv.KickYards,
+                        gv.FgBad
                         ));
                     pi.PlayEval(gv.Down, gv.PlayYards, ListofPlayStatus);
                 }

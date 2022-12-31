@@ -134,7 +134,7 @@ namespace FootballApp
                     }
                 }
             }
-            Console.WriteLine($"*****************PlayID: " + GameValues._playid + "\tHomePlayName: " + GameValues._hplaycall + "\tAwayPlayName: " + GameValues._aplaycall);
+            Console.WriteLine($"No Play Selected!!!*****************PlayID: " + GameValues._playid + "\tHomePlayName: " + GameValues._hplaycall + "\tAwayPlayName: " + GameValues._aplaycall);
             Plays testplay = a.First();
             return testplay;
         }

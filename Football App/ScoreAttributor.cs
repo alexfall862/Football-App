@@ -13,11 +13,17 @@ namespace FootballApp
             if (GameValues._homepossession == true) 
             {
                 //Big ol' if else due to switch not taking evaluated expressions.
-                if (a.Last().Td == true | a.Last().DTd == true)
+                if (a.Last().Td == true)
                 {
                     //Console.WriteLine("Home Touchdown!");
                     a.Last().HtScore = a.Last().HtScore + GameValues._tdvalue;
                     GameValues._htscore = a.Last().HtScore;
+                }
+                else if (a.Last().DTd == true)
+                {
+                    //Console.WriteLine("Away Defensive Touchdown!");
+                    a.Last().AtScore = a.Last().AtScore + GameValues._tdvalue;
+                    GameValues._atscore = a.Last().AtScore;
                 }
                 else if (a.Last().FgGood == true)
                 {
@@ -55,11 +61,17 @@ namespace FootballApp
                 }
             } else if (GameValues._homepossession != true)
             {
-                if (a.Last().Td == true | a.Last().DTd == true)
+                if (a.Last().Td == true)
                 {
                     //Console.WriteLine("Away Touchdown!");
                     a.Last().AtScore = a.Last().AtScore + GameValues._tdvalue;
                     GameValues._atscore = a.Last().AtScore;
+                }
+                else if (a.Last().DTd == true)
+                {
+                    //Console.WriteLine("Home Defensive Touchdown!");
+                    a.Last().HtScore = a.Last().HtScore + GameValues._tdvalue;
+                    GameValues._htscore = a.Last().HtScore;
                 }
                 else if (a.Last().FgGood == true)
                 {

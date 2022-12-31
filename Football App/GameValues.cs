@@ -26,6 +26,11 @@ public class GameValues
         public static int _quarterlength = 900;
         public static int _allowabledowns = 4;
         public static int _allowabledistance = 10;
+        public static int _allowablektouchback = 25;
+        public static int _allowableptouchback = 20;
+        public static int _allowablekickstart = 25;
+        public static int _allowablesafetypuntstart = 20;
+        public static int _allowablefieldlength = 100;
         public static bool _firstdownachieved = false;
         public static bool _td = false;
         public static bool _dtd = false;
@@ -57,11 +62,25 @@ public class GameValues
         public static string _aplaycalltype = "";
         public static int _presnaprunoff = 0;
         public static int _playlength = 0;
-        public static int _returnyards = 0;
-        public int ReturnYards
+        public static int _kpreturnyards = 0;
+        public static int _dreturnyards = 0;
+        public static int _kickyards = 0;
+        public int KickYards
         {
-            get { return _returnyards; }
-            set { _returnyards = value; }
+            get { return _kickyards; }
+            set { _kickyards = value; }
+        }
+
+        public int DReturnYards
+        {
+            get { return _dreturnyards; }
+            set { _dreturnyards = value; }
+        }
+
+        public int KPReturnYards
+        {
+            get { return _kpreturnyards; }
+            set { _kpreturnyards = value; }
         }
 
         public int PlayLength

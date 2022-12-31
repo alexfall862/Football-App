@@ -43,11 +43,24 @@ namespace FootballApp
         public string _aplaycall = "";
         public int _presnaprunoff = 0;
         public int _playlength = 0;
-        public int _returnyards = 0;
-        public int ReturnYards
+        public int _kpreturnyards = 0;
+        public int _dreturnyards = 0;
+        public int _kickyards = 0;
+        public int KickYards
         {
-            get { return _returnyards; }
-            set { _returnyards = value; }
+            get { return _kickyards; }
+            set { _kickyards = value; }
+        }
+        public int DReturnYards
+        {
+            get { return _dreturnyards; }
+            set { _dreturnyards = value; }
+        }
+
+        public int KPReturnYards
+        {
+            get { return _kpreturnyards; }
+            set { _kpreturnyards = value; }
         }
 
         public int PlayLength
@@ -267,7 +280,10 @@ namespace FootballApp
             string aplaycall,
             int presnaprunoff,
             int playlength,
-            int returnyards
+            int kpreturnyards,
+            int dreturnyards,
+            int kickyards,
+            bool fgbad
             )
         {
             this._playID = playID;
@@ -302,7 +318,10 @@ namespace FootballApp
             this._aplaycall = aplaycall;
             this._presnaprunoff = presnaprunoff;
             this._playlength = playlength;
-            this._returnyards = returnyards;
+            this._kpreturnyards = kpreturnyards;
+            this._dreturnyards = dreturnyards;
+            this._kickyards = kickyards;
+            this._fgbad = fgbad;
         }
     }
 }

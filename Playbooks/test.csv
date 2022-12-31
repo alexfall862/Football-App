@@ -1,136 +1,128 @@
-PlayID,Yardage,HomePossession,Down,HtScore,AtScore,YardsToGo,TurnoverOnDowns,FirstDownAchieved,Los,Td,DTd,FgGood,Safety,DSafety,XpGood,TwoConv,TwoConvReturned,Quarter,Time,ExtraPointTry,Kickoff,PlayType,XpBad,Punt,SafetyPunt,PuntAttempt,Touchback,HPlayCall,APlayCall,PreSnapRunoff,PlayLength
-1,50,True,0,0,0,0,False,False,35,False,False,False,False,False,False,False,False,1,900,False,True,Kickoff,False,False,False,False,False,KickMiddle,KickReturn,0,0
-2,5,False,1,0,0,10,False,False,15,False,False,False,False,False,False,False,False,1,885,False,False,Normal,False,False,False,False,False,RunStopOutside,Run1,10,5
-3,8,False,2,0,0,5,False,True,20,False,False,False,False,False,False,False,False,1,849,False,False,Normal,False,False,False,False,False,PassCover0,Pass2,27,8
-4,5,False,1,0,0,10,False,False,28,False,False,False,False,False,False,False,False,1,828,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass1,12,8
-5,5,False,2,0,0,5,False,True,33,False,False,False,False,False,False,False,False,1,814,False,False,Normal,False,False,False,False,False,PassCover0,Run1,7,6
-6,5,False,1,0,0,10,False,False,38,False,False,False,False,False,False,False,False,1,782,False,False,Normal,False,False,False,False,False,PassCover2,Run1,24,7
-7,5,False,2,0,0,5,False,True,43,False,False,False,False,False,False,False,False,1,753,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run1,23,5
-8,6,False,1,0,0,10,False,False,48,False,False,False,False,False,False,False,False,1,708,False,False,Normal,False,False,False,False,False,PassCover0,Pass2,36,8
-9,9,False,2,0,0,4,False,True,54,False,False,False,False,False,False,False,False,1,692,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run1,7,8
-10,4,False,1,0,0,10,False,False,63,False,False,False,False,False,False,False,False,1,665,False,False,Normal,False,False,False,False,False,PassCover2,Run2,21,5
-11,6,False,2,0,0,6,False,True,67,False,False,False,False,False,False,False,False,1,623,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass1,35,6
-12,5,False,1,0,0,10,False,False,73,False,False,False,False,False,False,False,False,1,594,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass1,21,7
-13,5,False,2,0,0,5,False,True,78,False,False,False,False,False,False,False,False,1,580,False,False,Normal,False,False,False,False,False,RunStopOutside,Run1,6,7
-14,5,False,1,0,0,10,False,False,83,False,False,False,False,False,False,False,False,1,552,False,False,Normal,False,False,False,False,False,PassCover2,Run2,21,6
-15,4,False,2,0,0,5,False,False,88,False,False,False,False,False,False,False,False,1,515,False,False,Normal,False,False,False,False,False,PassCover0,Pass2,29,7
-16,8,False,3,0,6,1,False,True,92,True,False,False,False,False,False,False,False,1,482,False,False,Normal,False,False,False,False,False,PassCover2,Run2,24,8
-17,0,False,0,0,7,0,False,False,98,False,False,False,False,False,True,False,False,1,462,True,False,XP,False,False,False,False,False,ExtraPointBlock,ExtraPoint,12,7
-18,50,False,0,0,7,0,False,False,35,False,False,False,False,False,False,False,False,1,462,False,True,Kickoff,False,False,False,False,False,KickReturn,KickMiddle,12,7
-19,9,True,1,0,7,10,False,False,15,False,False,False,False,False,False,False,False,1,433,False,False,Normal,False,False,False,False,False,Pass1,PassCover0,24,5
-20,7,True,2,0,7,1,False,True,24,False,False,False,False,False,False,False,False,1,397,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,30,5
-21,7,True,1,0,7,10,False,False,31,False,False,False,False,False,False,False,False,1,359,False,False,Normal,False,False,False,False,False,Pass1,PassCover0,29,8
-22,3,True,2,0,7,3,False,True,38,False,False,False,False,False,False,False,False,1,322,False,False,Normal,False,False,False,False,False,Run1,PassCover2,30,6
-23,6,True,1,0,7,10,False,False,41,False,False,False,False,False,False,False,False,1,299,False,False,Normal,False,False,False,False,False,Pass1,PassCover2,16,6
-24,4,True,2,0,7,4,False,True,47,False,False,False,False,False,False,False,False,1,280,False,False,Normal,False,False,False,False,False,Run1,RunStopOutside,11,7
-25,7,True,1,0,7,10,False,False,51,False,False,False,False,False,False,False,False,1,249,False,False,Normal,False,False,False,False,False,Run2,RunStopOutside,23,7
-26,7,True,2,0,7,3,False,True,58,False,False,False,False,False,False,False,False,1,207,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,33,8
-27,5,True,1,0,7,10,False,False,65,False,False,False,False,False,False,False,False,1,164,False,False,Normal,False,False,False,False,False,Pass2,RunStopMiddle,37,5
-28,4,True,2,0,7,5,False,False,70,False,False,False,False,False,False,False,False,1,129,False,False,Normal,False,False,False,False,False,Run2,RunStopOutside,26,8
-29,5,True,3,0,7,1,False,True,74,False,False,False,False,False,False,False,False,1,101,False,False,Normal,False,False,False,False,False,Run2,PassCover0,21,6
-30,5,True,1,0,7,10,False,False,79,False,False,False,False,False,False,False,False,1,85,False,False,Normal,False,False,False,False,False,Run2,PassCover0,10,5
-31,8,True,2,0,7,5,False,True,84,False,False,False,False,False,False,False,False,1,51,False,False,Normal,False,False,False,False,False,Run2,RunStopOutside,26,7
-32,8,True,1,0,7,10,False,False,92,False,False,False,False,False,False,False,False,1,14,False,False,Normal,False,False,False,False,False,Run1,PassCover2,30,6
-33,0,True,2,6,7,2,False,True,100,True,False,False,False,False,False,False,False,2,900,False,False,Normal,False,False,False,False,False,Pass1,RunStopOutside,17,8
-34,0,True,0,7,7,0,False,False,98,False,False,False,False,False,True,False,False,2,879,True,False,XP,False,False,False,False,False,ExtraPoint,ExtraPointBlock,15,5
-35,50,True,0,7,7,0,False,False,35,False,False,False,False,False,False,False,False,2,879,False,True,Kickoff,False,False,False,False,False,KickMiddle,KickReturn,15,5
-36,9,False,1,7,7,10,False,False,15,False,False,False,False,False,False,False,False,2,856,False,False,Normal,False,False,False,False,False,PassCover0,Run1,16,7
-37,5,False,2,7,7,1,False,True,24,False,False,False,False,False,False,False,False,2,832,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass1,18,5
-38,5,False,1,7,7,10,False,False,29,False,False,False,False,False,False,False,False,2,813,False,False,Normal,False,False,False,False,False,PassCover0,Pass2,13,5
-39,9,False,2,7,7,5,False,True,34,False,False,False,False,False,False,False,False,2,782,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass1,22,8
-40,3,False,1,7,7,10,False,False,43,False,False,False,False,False,False,False,False,2,753,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass1,20,8
-41,4,False,2,7,7,7,False,False,46,False,False,False,False,False,False,False,False,2,728,False,False,Normal,False,False,False,False,False,PassCover2,Run2,16,8
-42,3,False,3,7,7,3,False,True,50,False,False,False,False,False,False,False,False,2,702,False,False,Normal,False,False,False,False,False,PassCover2,Pass2,19,6
-43,4,False,1,7,7,10,False,False,53,False,False,False,False,False,False,False,False,2,667,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run1,26,8
-44,7,False,2,7,7,6,False,True,57,False,False,False,False,False,False,False,False,2,650,False,False,Normal,False,False,False,False,False,PassCover0,Run1,9,7
-45,8,False,1,7,7,10,False,False,64,False,False,False,False,False,False,False,False,2,605,False,False,Normal,False,False,False,False,False,PassCover2,Run1,36,8
-46,3,False,2,7,7,2,False,True,72,False,False,False,False,False,False,False,False,2,582,False,False,Normal,False,False,False,False,False,PassCover2,Run2,17,5
-47,9,False,1,7,7,10,False,False,75,False,False,False,False,False,False,False,False,2,558,False,False,Normal,False,False,False,False,False,PassCover2,Pass2,17,6
-48,6,False,2,7,7,1,False,True,84,False,False,False,False,False,False,False,False,2,544,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run2,5,8
-49,9,False,1,7,7,10,False,False,90,False,False,False,False,False,False,False,False,2,517,False,False,Normal,False,False,False,False,False,PassCover0,Run1,21,5
-50,1,False,2,7,13,1,False,True,99,True,False,False,False,False,False,False,False,2,472,False,False,Normal,False,False,False,False,False,PassCover2,Pass1,37,7
-51,0,False,0,7,14,0,False,False,98,False,False,False,False,False,True,False,False,2,459,True,False,XP,False,False,False,False,False,ExtraPointBlock,ExtraPoint,6,6
-52,50,False,0,7,14,0,False,False,35,False,False,False,False,False,False,False,False,2,459,False,True,Kickoff,False,False,False,False,False,KickReturn,KickMiddle,6,6
-53,8,True,1,7,14,10,False,False,15,False,False,False,False,False,False,False,False,2,436,False,False,Normal,False,False,False,False,False,Run1,PassCover2,16,7
-54,7,True,2,7,14,2,False,True,23,False,False,False,False,False,False,False,False,2,420,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,8,7
-55,8,True,1,7,14,10,False,False,30,False,False,False,False,False,False,False,False,2,394,False,False,Normal,False,False,False,False,False,Run1,PassCover2,19,6
-56,3,True,2,7,14,2,False,True,38,False,False,False,False,False,False,False,False,2,362,False,False,Normal,False,False,False,False,False,Run1,RunStopMiddle,24,7
-57,9,True,1,7,14,10,False,False,41,False,False,False,False,False,False,False,False,2,344,False,False,Normal,False,False,False,False,False,Pass1,RunStopMiddle,9,8
-58,6,True,2,7,14,1,False,True,50,False,False,False,False,False,False,False,False,2,329,False,False,Normal,False,False,False,False,False,Run2,RunStopMiddle,7,7
-59,9,True,1,7,14,10,False,False,56,False,False,False,False,False,False,False,False,2,295,False,False,Normal,False,False,False,False,False,Run1,RunStopMiddle,26,7
-60,9,True,2,7,14,1,False,True,65,False,False,False,False,False,False,False,False,2,274,False,False,Normal,False,False,False,False,False,Pass1,PassCover0,12,8
-61,9,True,1,7,14,10,False,False,74,False,False,False,False,False,False,False,False,2,245,False,False,Normal,False,False,False,False,False,Pass1,PassCover2,23,5
-62,9,True,2,7,14,1,False,True,83,False,False,False,False,False,False,False,False,2,217,False,False,Normal,False,False,False,False,False,Pass2,RunStopMiddle,22,5
-63,6,True,1,7,14,10,False,False,92,False,False,False,False,False,False,False,False,2,183,False,False,Normal,False,False,False,False,False,Pass2,PassCover0,28,5
-64,2,True,2,13,14,4,False,True,98,True,False,False,False,False,False,False,False,2,142,False,False,Normal,False,False,False,False,False,Run2,RunStopOutside,35,5
-65,0,True,0,14,14,0,False,False,98,False,False,False,False,False,True,False,False,2,127,True,False,XP,False,False,False,False,False,ExtraPoint,ExtraPointBlock,9,5
-66,50,True,0,14,14,0,False,False,35,False,False,False,False,False,False,False,False,2,127,False,True,Kickoff,False,False,False,False,False,KickMiddle,KickReturn,9,5
-67,7,False,1,14,14,10,False,False,15,False,False,False,False,False,False,False,False,2,104,False,False,Normal,False,False,False,False,False,PassCover0,Pass2,18,5
-68,9,False,2,14,14,3,False,True,22,False,False,False,False,False,False,False,False,2,84,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass2,14,5
-69,8,False,1,14,14,10,False,False,31,False,False,False,False,False,False,False,False,2,46,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass2,30,7
-70,4,False,2,14,14,2,False,True,39,False,False,False,False,False,False,False,False,2,24,False,False,Normal,False,False,False,False,False,PassCover2,Pass2,15,6
-71,9,False,1,14,14,10,False,False,43,False,False,False,False,False,False,False,False,2,10,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass2,6,7
-72,50,False,0,14,14,0,False,False,35,False,False,False,False,False,False,False,False,3,900,False,True,Kickoff,False,False,False,False,False,KickReturn,KickMiddle,7,8
-73,8,True,1,14,14,10,False,False,15,False,False,False,False,False,False,False,False,3,860,False,False,Normal,False,False,False,False,False,Pass1,PassCover2,32,8
-74,7,True,2,14,14,2,False,True,23,False,False,False,False,False,False,False,False,3,833,False,False,Normal,False,False,False,False,False,Run1,PassCover0,21,5
-75,7,True,1,14,14,10,False,False,30,False,False,False,False,False,False,False,False,3,796,False,False,Normal,False,False,False,False,False,Run2,RunStopMiddle,31,5
-76,4,True,2,14,14,3,False,True,37,False,False,False,False,False,False,False,False,3,782,False,False,Normal,False,False,False,False,False,Run2,PassCover0,8,5
-77,7,True,1,14,14,10,False,False,41,False,False,False,False,False,False,False,False,3,743,False,False,Normal,False,False,False,False,False,Pass1,RunStopOutside,32,6
-78,5,True,2,14,14,3,False,True,48,False,False,False,False,False,False,False,False,3,725,False,False,Normal,False,False,False,False,False,Pass1,PassCover2,12,5
-79,3,True,1,14,14,10,False,False,53,False,False,False,False,False,False,False,False,3,710,False,False,Normal,False,False,False,False,False,Pass2,RunStopOutside,7,7
-80,4,True,2,14,14,7,False,False,56,False,False,False,False,False,False,False,False,3,686,False,False,Normal,False,False,False,False,False,Run2,RunStopMiddle,15,8
-81,3,True,3,14,14,3,False,True,60,False,False,False,False,False,False,False,False,3,669,False,False,Normal,False,False,False,False,False,Run2,PassCover2,8,8
-82,3,True,1,14,14,10,False,False,63,False,False,False,False,False,False,False,False,3,635,False,False,Normal,False,False,False,False,False,Run1,RunStopMiddle,26,7
-83,5,True,2,14,14,7,False,False,66,False,False,False,False,False,False,False,False,3,598,False,False,Normal,False,False,False,False,False,Pass1,PassCover0,29,7
-84,3,True,3,14,14,2,False,True,71,False,False,False,False,False,False,False,False,3,583,False,False,Normal,False,False,False,False,False,Run2,PassCover2,8,6
-85,8,True,1,14,14,10,False,False,74,False,False,False,False,False,False,False,False,3,548,False,False,Normal,False,False,False,False,False,Run2,RunStopOutside,29,5
-86,9,True,2,14,14,2,False,True,82,False,False,False,False,False,False,False,False,3,514,False,False,Normal,False,False,False,False,False,Run2,RunStopOutside,25,8
-87,4,True,1,14,14,10,False,False,91,False,False,False,False,False,False,False,False,3,478,False,False,Normal,False,False,False,False,False,Run2,RunStopMiddle,27,8
-88,4,True,2,14,14,6,False,False,95,False,False,False,False,False,False,False,False,3,465,False,False,Normal,False,False,False,False,False,Pass2,RunStopMiddle,7,5
-89,1,True,3,20,14,2,False,True,99,True,False,False,False,False,False,False,False,3,453,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,6,5
-90,0,True,0,21,14,0,False,False,98,False,False,False,False,False,True,False,False,3,411,True,False,XP,False,False,False,False,False,ExtraPoint,ExtraPointBlock,36,5
-91,50,True,0,21,14,0,False,False,35,False,False,False,False,False,False,False,False,3,411,False,True,Kickoff,False,False,False,False,False,KickMiddle,KickReturn,36,5
-92,5,False,1,21,14,10,False,False,15,False,False,False,False,False,False,False,False,3,366,False,False,Normal,False,False,False,False,False,PassCover2,Run2,37,8
-93,8,False,2,21,14,5,False,True,20,False,False,False,False,False,False,False,False,3,342,False,False,Normal,False,False,False,False,False,PassCover0,Pass1,15,8
-94,9,False,1,21,14,10,False,False,28,False,False,False,False,False,False,False,False,3,317,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass2,17,7
-95,3,False,2,21,14,1,False,True,37,False,False,False,False,False,False,False,False,3,296,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass1,15,5
-96,9,False,1,21,14,10,False,False,40,False,False,False,False,False,False,False,False,3,260,False,False,Normal,False,False,False,False,False,RunStopOutside,Run1,29,6
-97,6,False,2,21,14,1,False,True,49,False,False,False,False,False,False,False,False,3,242,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass1,9,8
-98,6,False,1,21,14,10,False,False,55,False,False,False,False,False,False,False,False,3,200,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run2,36,5
-99,9,False,2,21,14,4,False,True,61,False,False,False,False,False,False,False,False,3,165,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run2,26,8
-100,6,False,1,21,14,10,False,False,70,False,False,False,False,False,False,False,False,3,122,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run1,37,5
-101,9,False,2,21,14,4,False,True,76,False,False,False,False,False,False,False,False,3,92,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass1,24,5
-102,5,False,1,21,14,10,False,False,85,False,False,False,False,False,False,False,False,3,73,False,False,Normal,False,False,False,False,False,PassCover0,Run2,11,7
-103,9,False,2,21,14,5,False,True,90,False,False,False,False,False,False,False,False,3,33,False,False,Normal,False,False,False,False,False,RunStopOutside,Run2,31,8
-104,1,False,1,21,20,10,False,False,99,True,False,False,False,False,False,False,False,3,8,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run2,18,6
-105,0,False,0,21,21,0,False,False,98,False,False,False,False,False,True,False,False,3,-25,True,False,XP,False,False,False,False,False,ExtraPointBlock,ExtraPoint,27,5
-106,50,False,0,21,21,0,False,False,35,False,False,False,False,False,False,False,False,4,900,False,True,Kickoff,False,False,False,False,False,KickReturn,KickMiddle,27,5
-107,7,True,1,21,21,10,False,False,15,False,False,False,False,False,False,False,False,4,867,False,False,Normal,False,False,False,False,False,Pass1,PassCover2,27,6
-108,3,True,2,21,21,3,False,True,22,False,False,False,False,False,False,False,False,4,844,False,False,Normal,False,False,False,False,False,Pass2,RunStopMiddle,16,6
-109,4,True,1,21,21,10,False,False,25,False,False,False,False,False,False,False,False,4,800,False,False,Normal,False,False,False,False,False,Pass1,PassCover0,37,6
-110,8,True,2,21,21,6,False,True,29,False,False,False,False,False,False,False,False,4,765,False,False,Normal,False,False,False,False,False,Pass1,RunStopOutside,28,6
-111,6,True,1,21,21,10,False,False,37,False,False,False,False,False,False,False,False,4,719,False,False,Normal,False,False,False,False,False,Pass2,RunStopMiddle,37,8
-112,7,True,2,21,21,4,False,True,43,False,False,False,False,False,False,False,False,4,704,False,False,Normal,False,False,False,False,False,Run2,PassCover2,6,8
-113,3,True,1,21,21,10,False,False,50,False,False,False,False,False,False,False,False,4,668,False,False,Normal,False,False,False,False,False,Run2,RunStopMiddle,28,7
-114,7,True,2,21,21,7,False,True,53,False,False,False,False,False,False,False,False,4,645,False,False,Normal,False,False,False,False,False,Run2,PassCover0,17,5
-115,9,True,1,21,21,10,False,False,60,False,False,False,False,False,False,False,False,4,611,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,28,5
-116,6,True,2,21,21,1,False,True,69,False,False,False,False,False,False,False,False,4,570,False,False,Normal,False,False,False,False,False,Run1,PassCover0,35,5
-117,5,True,1,21,21,10,False,False,75,False,False,False,False,False,False,False,False,4,557,False,False,Normal,False,False,False,False,False,Pass1,PassCover0,7,5
-118,8,True,2,21,21,5,False,True,80,False,False,False,False,False,False,False,False,4,528,False,False,Normal,False,False,False,False,False,Pass1,RunStopMiddle,21,7
-119,8,True,1,21,21,10,False,False,88,False,False,False,False,False,False,False,False,4,494,False,False,Normal,False,False,False,False,False,Pass1,RunStopOutside,28,5
-120,4,True,2,27,21,2,False,True,96,True,False,False,False,False,False,False,False,4,455,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,33,5
-121,0,True,0,28,21,0,False,False,98,False,False,False,False,False,True,False,False,4,429,True,False,XP,False,False,False,False,False,ExtraPoint,ExtraPointBlock,19,6
-122,50,True,0,28,21,0,False,False,35,False,False,False,False,False,False,False,False,4,429,False,True,Kickoff,False,False,False,False,False,KickMiddle,KickReturn,19,6
-123,3,False,1,28,21,10,False,False,15,False,False,False,False,False,False,False,False,4,394,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass2,27,8
-124,4,False,2,28,21,7,False,False,18,False,False,False,False,False,False,False,False,4,349,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run1,39,5
-125,3,False,3,28,21,3,False,True,22,False,False,False,False,False,False,False,False,4,335,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass1,7,6
-126,7,False,1,28,21,10,False,False,25,False,False,False,False,False,False,False,False,4,321,False,False,Normal,False,False,False,False,False,PassCover2,Pass1,7,6
-127,6,False,2,28,21,3,False,True,32,False,False,False,False,False,False,False,False,4,292,False,False,Normal,False,False,False,False,False,PassCover2,Pass2,22,6
-128,7,False,1,28,21,10,False,False,38,False,False,False,False,False,False,False,False,4,246,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass2,37,8
-129,3,False,2,28,21,3,False,True,45,False,False,False,False,False,False,False,False,4,209,False,False,Normal,False,False,False,False,False,PassCover2,Run2,29,7
-130,4,False,1,28,21,10,False,False,48,False,False,False,False,False,False,False,False,4,193,False,False,Normal,False,False,False,False,False,RunStopOutside,Run1,8,7
-131,4,False,2,28,21,6,False,False,52,False,False,False,False,False,False,False,False,4,150,False,False,Normal,False,False,False,False,False,RunStopOutside,Run2,35,7
-132,3,False,3,28,21,2,False,True,56,False,False,False,False,False,False,False,False,4,112,False,False,Normal,False,False,False,False,False,PassCover0,Pass1,30,7
-133,6,False,1,28,21,10,False,False,59,False,False,False,False,False,False,False,False,4,70,False,False,Normal,False,False,False,False,False,PassCover0,Run2,33,8
-134,7,False,2,28,21,4,False,True,65,False,False,False,False,False,False,False,False,4,54,False,False,Normal,False,False,False,False,False,PassCover2,Pass1,8,7
-135,3,False,1,28,21,10,False,False,72,False,False,False,False,False,False,False,False,4,13,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run1,32,8
+PlayID,Yardage,HomePossession,Down,HtScore,AtScore,YardsToGo,TurnoverOnDowns,FirstDownAchieved,Los,Td,DTd,FgGood,FgBad,Safety,DSafety,XpGood,TwoConv,TwoConvReturned,Quarter,Time,ExtraPointTry,Kickoff,PlayType,XpBad,Punt,SafetyPunt,PuntAttempt,Touchback,HPlayCall,APlayCall,PreSnapRunoff,PlayLengthReturn Yards
+1,75,False,0,0,0,0,False,False,25,False,False,False,False,False,False,False,False,False,1,900,False,True,Kickoff,False,False,False,False,True,KickReturn,KickMiddle,0,0,0
+2,2,True,1,0,0,10,False,False,25,False,False,False,False,False,False,False,False,False,1,877,False,False,Normal,False,False,False,False,False,Run1,PassCover0,16,7,0
+3,1,True,2,0,0,8,False,False,27,False,False,False,False,False,False,False,False,False,1,835,False,False,Normal,False,False,False,False,False,Pass2,RunStopOutside,34,7,0
+4,2,True,3,0,0,7,False,False,28,False,False,False,False,False,False,False,False,False,1,814,False,False,Normal,False,False,False,False,False,Pass1,RunStopMiddle,13,7,0
+5,0,True,4,0,0,5,False,False,30,False,False,False,True,False,False,False,False,False,1,767,False,False,FG,False,False,False,False,False, Field Goal, FG Block,38,8,0
+6,3,False,1,0,0,10,False,False,70,False,False,False,False,False,False,False,False,False,1,745,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass2,15,7,0
+7,3,False,2,0,0,7,False,False,73,False,False,False,False,False,False,False,False,False,1,730,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass1,6,8,0
+8,2,False,3,0,0,4,False,False,76,False,False,False,False,False,False,False,False,False,1,708,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run1,14,7,0
+9,0,False,4,0,3,2,False,False,78,False,False,True,False,False,False,False,False,False,1,668,False,False,FG,False,False,False,False,False, FG Block, Field Goal,31,8,0
+10,75,False,0,0,3,0,False,False,25,False,False,False,False,False,False,False,False,False,1,649,False,True,Kickoff,False,False,False,False,True,KickReturn,KickMiddle,11,8,0
+11,1,True,1,0,3,10,False,False,25,False,False,False,False,False,False,False,False,False,1,638,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,5,6,0
+12,3,True,2,0,3,9,False,False,26,False,False,False,False,False,False,False,False,False,1,614,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,16,7,0
+13,2,True,3,0,3,6,False,False,29,False,False,False,False,False,False,False,False,False,1,588,False,False,Normal,False,False,False,False,False,Run2,PassCover2,18,7,0
+14,0,True,4,0,3,4,False,False,31,False,False,False,True,False,False,False,False,False,1,545,False,False,FG,False,False,False,False,False, Field Goal, FG Block,35,7,0
+15,2,False,1,0,3,10,False,False,69,False,False,False,False,False,False,False,False,False,1,534,False,False,Normal,False,False,False,False,False,RunStopOutside,Run1,5,6,0
+16,3,False,2,0,3,8,False,False,71,False,False,False,False,False,False,False,False,False,1,519,False,False,Normal,False,False,False,False,False,PassCover2,Run2,8,6,0
+17,1,False,3,0,3,5,False,False,74,False,False,False,False,False,False,False,False,False,1,479,False,False,Normal,False,False,False,False,False,PassCover0,Run2,33,6,0
+18,0,False,4,0,6,4,False,False,75,False,False,True,False,False,False,False,False,False,1,436,False,False,FG,False,False,False,False,False, FG Block, Field Goal,37,5,0
+19,75,False,0,0,6,0,False,False,25,False,False,False,False,False,False,False,False,False,1,422,False,True,Kickoff,False,False,False,False,True,KickReturn,KickMiddle,8,6,0
+20,3,True,1,0,6,10,False,False,25,False,False,False,False,False,False,False,False,False,1,402,False,False,Normal,False,False,False,False,False,Pass2,RunStopMiddle,12,8,0
+21,3,True,2,0,6,7,False,False,28,False,False,False,False,False,False,False,False,False,1,381,False,False,Normal,False,False,False,False,False,Pass2,RunStopOutside,14,6,0
+22,1,True,3,0,6,4,False,False,31,False,False,False,False,False,False,False,False,False,1,364,False,False,Normal,False,False,False,False,False,Pass2,RunStopMiddle,10,6,0
+23,0,True,4,0,6,3,False,False,32,False,False,False,True,False,False,False,False,False,1,333,False,False,FG,False,False,False,False,False, Field Goal, FG Block,25,5,0
+24,3,False,1,0,6,10,False,False,68,False,False,False,False,False,False,False,False,False,1,303,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass1,22,8,0
+25,1,False,2,0,6,7,False,False,71,False,False,False,False,False,False,False,False,False,1,287,False,False,Normal,False,False,False,False,False,PassCover0,Run2,10,5,0
+26,1,False,3,0,6,6,False,False,72,False,False,False,False,False,False,False,False,False,1,254,False,False,Normal,False,False,False,False,False,PassCover0,Pass1,26,6,0
+27,0,False,4,0,6,5,False,False,73,False,False,False,True,False,False,False,False,False,1,222,False,False,FG,False,False,False,False,False, FG Block, Field Goal,23,8,0
+28,2,True,1,0,6,10,False,False,27,False,False,False,False,False,False,False,False,False,1,177,False,False,Normal,False,False,False,False,False,Run1,PassCover0,39,6,0
+29,3,True,2,0,6,8,False,False,29,False,False,False,False,False,False,False,False,False,1,155,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,16,5,0
+30,2,True,3,0,6,5,False,False,32,False,False,False,False,False,False,False,False,False,1,120,False,False,Normal,False,False,False,False,False,Pass1,PassCover0,28,6,0
+31,0,True,4,0,6,3,False,False,34,False,False,False,True,False,False,False,False,False,1,86,False,False,FG,False,False,False,False,False, Field Goal, FG Block,27,6,0
+32,1,False,1,0,6,10,False,False,66,False,False,False,False,False,False,False,False,False,1,60,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run2,18,8,0
+33,3,False,2,0,6,9,False,False,67,False,False,False,False,False,False,False,False,False,1,22,False,False,Normal,False,False,False,False,False,PassCover0,Pass1,30,7,0
+34,3,False,3,0,6,6,False,False,70,False,False,False,False,False,False,False,False,False,2,900,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run1,33,6,0
+35,0,False,4,0,9,3,False,False,73,False,False,True,False,False,False,False,False,False,2,861,False,False,FG,False,False,False,False,False, FG Block, Field Goal,32,6,0
+36,75,False,0,0,9,0,False,False,25,False,False,False,False,False,False,False,False,False,2,820,False,True,Kickoff,False,False,False,False,True,KickReturn,KickMiddle,36,5,0
+37,1,True,1,0,9,10,False,False,25,False,False,False,False,False,False,False,False,False,2,782,False,False,Normal,False,False,False,False,False,Pass1,RunStopMiddle,33,5,0
+38,1,True,2,0,9,9,False,False,26,False,False,False,False,False,False,False,False,False,2,761,False,False,Normal,False,False,False,False,False,Run2,RunStopMiddle,15,5,0
+39,3,True,3,0,9,8,False,False,27,False,False,False,False,False,False,False,False,False,2,748,False,False,Normal,False,False,False,False,False,Run1,RunStopMiddle,6,6,0
+40,0,True,4,0,9,5,False,False,30,False,False,False,True,False,False,False,False,False,2,726,False,False,FG,False,False,False,False,False, Field Goal, FG Block,16,5,0
+41,2,False,1,0,9,10,False,False,70,False,False,False,False,False,False,False,False,False,2,713,False,False,Normal,False,False,False,False,False,PassCover0,Run2,6,7,0
+42,2,False,2,0,9,8,False,False,72,False,False,False,False,False,False,False,False,False,2,686,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass2,18,8,0
+43,3,False,3,0,9,6,False,False,74,False,False,False,False,False,False,False,False,False,2,673,False,False,Normal,False,False,False,False,False,RunStopOutside,Run1,6,6,0
+44,0,False,4,0,12,3,False,False,77,False,False,True,False,False,False,False,False,False,2,646,False,False,FG,False,False,False,False,False, FG Block, Field Goal,19,7,0
+45,75,False,0,0,12,0,False,False,25,False,False,False,False,False,False,False,False,False,2,616,False,True,Kickoff,False,False,False,False,True,KickReturn,KickMiddle,24,6,0
+46,2,True,1,0,12,10,False,False,25,False,False,False,False,False,False,False,False,False,2,603,False,False,Normal,False,False,False,False,False,Pass1,PassCover2,8,5,0
+47,3,True,2,0,12,8,False,False,27,False,False,False,False,False,False,False,False,False,2,576,False,False,Normal,False,False,False,False,False,Run2,RunStopMiddle,18,8,0
+48,1,True,3,0,12,5,False,False,30,False,False,False,False,False,False,False,False,False,2,546,False,False,Normal,False,False,False,False,False,Run2,PassCover2,21,8,0
+49,0,True,4,0,12,4,False,False,31,False,False,False,True,False,False,False,False,False,2,501,False,False,FG,False,False,False,False,False, Field Goal, FG Block,39,5,0
+50,2,False,1,0,12,10,False,False,69,False,False,False,False,False,False,False,False,False,2,457,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass2,37,7,0
+51,3,False,2,0,12,8,False,False,71,False,False,False,False,False,False,False,False,False,2,431,False,False,Normal,False,False,False,False,False,PassCover0,Run1,19,6,0
+52,2,False,3,0,12,5,False,False,74,False,False,False,False,False,False,False,False,False,2,389,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass1,33,8,0
+53,0,False,4,0,15,3,False,False,76,False,False,True,False,False,False,False,False,False,2,356,False,False,FG,False,False,False,False,False, FG Block, Field Goal,25,7,0
+54,75,False,0,0,15,0,False,False,25,False,False,False,False,False,False,False,False,False,2,329,False,True,Kickoff,False,False,False,False,True,KickReturn,KickMiddle,21,6,0
+55,2,True,1,0,15,10,False,False,25,False,False,False,False,False,False,False,False,False,2,304,False,False,Normal,False,False,False,False,False,Run1,RunStopOutside,20,5,0
+56,2,True,2,0,15,8,False,False,27,False,False,False,False,False,False,False,False,False,2,260,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,37,6,0
+57,2,True,3,0,15,6,False,False,29,False,False,False,False,False,False,False,False,False,2,215,False,False,Normal,False,False,False,False,False,Pass2,PassCover0,37,7,0
+58,0,True,4,0,15,4,False,False,31,False,False,False,True,False,False,False,False,False,2,173,False,False,FG,False,False,False,False,False, Field Goal, FG Block,34,7,0
+59,1,False,1,0,15,10,False,False,69,False,False,False,False,False,False,False,False,False,2,151,False,False,Normal,False,False,False,False,False,PassCover0,Pass1,16,6,0
+60,1,False,2,0,15,9,False,False,70,False,False,False,False,False,False,False,False,False,2,118,False,False,Normal,False,False,False,False,False,PassCover0,Run1,25,7,0
+61,1,False,3,0,15,8,False,False,71,False,False,False,False,False,False,False,False,False,2,88,False,False,Normal,False,False,False,False,False,RunStopOutside,Run2,24,5,0
+62,0,False,4,0,18,7,False,False,72,False,False,True,False,False,False,False,False,False,2,60,False,False,FG,False,False,False,False,False, FG Block, Field Goal,21,6,0
+63,75,False,0,0,18,0,False,False,25,False,False,False,False,False,False,False,False,False,2,21,False,True,Kickoff,False,False,False,False,True,KickReturn,KickMiddle,33,6,0
+64,75,True,0,0,18,0,False,False,25,False,False,False,False,False,False,False,False,False,3,900,False,True,Kickoff,False,False,False,False,True,KickMiddle,KickReturn,36,5,0
+65,2,False,1,0,18,10,False,False,25,False,False,False,False,False,False,False,False,False,3,876,False,False,Normal,False,False,False,False,False,PassCover0,Run2,16,8,0
+66,3,False,2,0,18,8,False,False,27,False,False,False,False,False,False,False,False,False,3,833,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass1,35,7,0
+67,1,False,3,0,18,5,False,False,30,False,False,False,False,False,False,False,False,False,3,804,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass2,20,8,0
+68,0,False,4,0,18,4,False,False,31,False,False,False,True,False,False,False,False,False,3,778,False,False,FG,False,False,False,False,False, FG Block, Field Goal,20,5,0
+69,3,True,1,0,18,10,False,False,69,False,False,False,False,False,False,False,False,False,3,745,False,False,Normal,False,False,False,False,False,Run2,RunStopOutside,26,7,0
+70,3,True,2,0,18,7,False,False,72,False,False,False,False,False,False,False,False,False,3,724,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,12,8,0
+71,3,True,3,0,18,4,False,False,75,False,False,False,False,False,False,False,False,False,3,682,False,False,Normal,False,False,False,False,False,Run2,RunStopMiddle,34,7,0
+72,0,True,4,3,18,1,False,False,78,False,False,True,False,False,False,False,False,False,3,643,False,False,FG,False,False,False,False,False, Field Goal, FG Block,32,6,0
+73,75,True,0,3,18,0,False,False,25,False,False,False,False,False,False,False,False,False,3,627,False,True,Kickoff,False,False,False,False,True,KickMiddle,KickReturn,9,7,0
+74,3,False,1,3,18,10,False,False,25,False,False,False,False,False,False,False,False,False,3,601,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass1,21,5,0
+75,2,False,2,3,18,7,False,False,28,False,False,False,False,False,False,False,False,False,3,579,False,False,Normal,False,False,False,False,False,PassCover0,Pass1,14,7,0
+76,1,False,3,3,18,5,False,False,30,False,False,False,False,False,False,False,False,False,3,535,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass1,38,5,0
+77,0,False,4,3,18,4,False,False,31,False,False,False,True,False,False,False,False,False,3,514,False,False,FG,False,False,False,False,False, FG Block, Field Goal,15,5,0
+78,3,True,1,3,18,10,False,False,69,False,False,False,False,False,False,False,False,False,3,481,False,False,Normal,False,False,False,False,False,Run1,PassCover0,28,5,0
+79,2,True,2,3,18,7,False,False,72,False,False,False,False,False,False,False,False,False,3,451,False,False,Normal,False,False,False,False,False,Pass1,RunStopOutside,21,8,0
+80,1,True,3,3,18,5,False,False,74,False,False,False,False,False,False,False,False,False,3,430,False,False,Normal,False,False,False,False,False,Pass2,RunStopOutside,12,8,0
+81,0,True,4,3,18,4,False,False,75,False,False,False,True,False,False,False,False,False,3,387,False,False,FG,False,False,False,False,False, Field Goal, FG Block,34,8,0
+82,3,False,1,3,18,10,False,False,25,False,False,False,False,False,False,False,False,False,3,345,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run2,35,7,0
+83,2,False,2,3,18,7,False,False,28,False,False,False,False,False,False,False,False,False,3,322,False,False,Normal,False,False,False,False,False,PassCover2,Run2,16,6,0
+84,3,False,3,3,18,5,False,False,30,False,False,False,False,False,False,False,False,False,3,277,False,False,Normal,False,False,False,False,False,PassCover0,Run2,38,6,0
+85,0,False,4,3,18,2,False,False,33,False,False,False,True,False,False,False,False,False,3,249,False,False,FG,False,False,False,False,False, FG Block, Field Goal,20,7,0
+86,2,True,1,3,18,10,False,False,67,False,False,False,False,False,False,False,False,False,3,217,False,False,Normal,False,False,False,False,False,Run1,RunStopOutside,24,8,0
+87,3,True,2,3,18,8,False,False,69,False,False,False,False,False,False,False,False,False,3,185,False,False,Normal,False,False,False,False,False,Pass1,RunStopMiddle,25,6,0
+88,1,True,3,3,18,5,False,False,72,False,False,False,False,False,False,False,False,False,3,146,False,False,Normal,False,False,False,False,False,Run1,RunStopOutside,30,8,0
+89,0,True,4,3,18,4,False,False,73,False,False,False,True,False,False,False,False,False,3,126,False,False,FG,False,False,False,False,False, Field Goal, FG Block,11,8,0
+90,1,False,1,3,18,10,False,False,27,False,False,False,False,False,False,False,False,False,3,84,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass2,35,7,0
+91,1,False,2,3,18,9,False,False,28,False,False,False,False,False,False,False,False,False,3,45,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass1,30,8,0
+92,1,False,3,3,18,8,False,False,29,False,False,False,False,False,False,False,False,False,3,28,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass1,10,6,0
+93,0,False,4,3,18,7,False,False,30,False,False,False,True,False,False,False,False,False,3,3,False,False,FG,False,False,False,False,False, FG Block, Field Goal,18,6,0
+94,2,True,1,3,18,10,False,False,70,False,False,False,False,False,False,False,False,False,4,900,False,False,Normal,False,False,False,False,False,Run2,RunStopMiddle,36,5,0
+95,3,True,2,3,18,8,False,False,72,False,False,False,False,False,False,False,False,False,4,880,False,False,Normal,False,False,False,False,False,Run2,PassCover2,14,5,0
+96,3,True,3,3,18,5,False,False,75,False,False,False,False,False,False,False,False,False,4,851,False,False,Normal,False,False,False,False,False,Run1,RunStopMiddle,21,7,0
+97,0,True,4,3,18,2,False,False,78,False,False,False,True,False,False,False,False,False,4,827,False,False,FG,False,False,False,False,False, Field Goal, FG Block,16,7,0
+98,2,False,1,3,18,10,False,False,22,False,False,False,False,False,False,False,False,False,4,782,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass2,38,7,0
+99,3,False,2,3,18,8,False,False,24,False,False,False,False,False,False,False,False,False,4,738,False,False,Normal,False,False,False,False,False,PassCover2,Run2,35,8,0
+100,2,False,3,3,18,5,False,False,27,False,False,False,False,False,False,False,False,False,4,718,False,False,Normal,False,False,False,False,False,PassCover2,Pass1,13,6,0
+101,0,False,4,3,18,3,False,False,29,False,False,False,True,False,False,False,False,False,4,690,False,False,FG,False,False,False,False,False, FG Block, Field Goal,19,8,0
+102,1,True,1,3,18,10,False,False,71,False,False,False,False,False,False,False,False,False,4,657,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,27,6,0
+103,2,True,2,3,18,9,False,False,72,False,False,False,False,False,False,False,False,False,4,613,False,False,Normal,False,False,False,False,False,Run1,PassCover2,36,7,0
+104,2,True,3,3,18,7,False,False,74,False,False,False,False,False,False,False,False,False,4,598,False,False,Normal,False,False,False,False,False,Pass2,PassCover0,9,5,0
+105,0,True,4,6,18,5,False,False,76,False,False,True,False,False,False,False,False,False,4,581,False,False,FG,False,False,False,False,False, Field Goal, FG Block,10,6,0
+106,75,True,0,6,18,0,False,False,25,False,False,False,False,False,False,False,False,False,4,552,False,True,Kickoff,False,False,False,False,True,KickMiddle,KickReturn,23,6,0
+107,3,False,1,6,18,10,False,False,25,False,False,False,False,False,False,False,False,False,4,523,False,False,Normal,False,False,False,False,False,PassCover2,Pass2,23,6,0
+108,3,False,2,6,18,7,False,False,28,False,False,False,False,False,False,False,False,False,4,482,False,False,Normal,False,False,False,False,False,RunStopOutside,Pass2,35,5,0
+109,2,False,3,6,18,4,False,False,31,False,False,False,False,False,False,False,False,False,4,468,False,False,Normal,False,False,False,False,False,PassCover0,Run1,7,6,0
+110,0,False,4,6,18,2,False,False,33,False,False,False,True,False,False,False,False,False,4,440,False,False,FG,False,False,False,False,False, FG Block, Field Goal,19,8,0
+111,2,True,1,6,18,10,False,False,67,False,False,False,False,False,False,False,False,False,4,405,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,27,8,0
+112,1,True,2,6,18,8,False,False,69,False,False,False,False,False,False,False,False,False,4,379,False,False,Normal,False,False,False,False,False,Pass2,PassCover2,19,6,0
+113,3,True,3,6,18,7,False,False,70,False,False,False,False,False,False,False,False,False,4,359,False,False,Normal,False,False,False,False,False,Run1,RunStopMiddle,11,8,0
+114,0,True,4,9,18,4,False,False,73,False,False,True,False,False,False,False,False,False,4,331,False,False,FG,False,False,False,False,False, Field Goal, FG Block,22,5,0
+115,75,True,0,9,18,0,False,False,25,False,False,False,False,False,False,False,False,False,4,296,False,True,Kickoff,False,False,False,False,True,KickMiddle,KickReturn,30,5,0
+116,3,False,1,9,18,10,False,False,25,False,False,False,False,False,False,False,False,False,4,266,False,False,Normal,False,False,False,False,False,RunStopMiddle,Pass1,23,7,0
+117,3,False,2,9,18,7,False,False,28,False,False,False,False,False,False,False,False,False,4,246,False,False,Normal,False,False,False,False,False,PassCover2,Pass1,13,6,0
+118,3,False,3,9,18,4,False,False,31,False,False,False,False,False,False,False,False,False,4,229,False,False,Normal,False,False,False,False,False,PassCover2,Run2,10,6,0
+119,0,False,4,9,18,1,False,False,34,False,False,False,True,False,False,False,False,False,4,190,False,False,FG,False,False,False,False,False, FG Block, Field Goal,31,7,0
+120,2,True,1,9,18,10,False,False,66,False,False,False,False,False,False,False,False,False,4,167,False,False,Normal,False,False,False,False,False,Run1,RunStopMiddle,15,8,0
+121,2,True,2,9,18,8,False,False,68,False,False,False,False,False,False,False,False,False,4,151,False,False,Normal,False,False,False,False,False,Pass1,RunStopOutside,7,8,0
+122,1,True,3,9,18,6,False,False,70,False,False,False,False,False,False,False,False,False,4,123,False,False,Normal,False,False,False,False,False,Pass2,RunStopMiddle,22,5,0
+123,0,True,4,12,18,5,False,False,71,False,False,True,False,False,False,False,False,False,4,92,False,False,FG,False,False,False,False,False, Field Goal, FG Block,24,6,0
+124,75,True,0,12,18,0,False,False,25,False,False,False,False,False,False,False,False,False,4,78,False,True,Kickoff,False,False,False,False,True,KickMiddle,KickReturn,7,7,0
+125,2,False,1,12,18,10,False,False,25,False,False,False,False,False,False,False,False,False,4,48,False,False,Normal,False,False,False,False,False,PassCover0,Pass2,24,6,0
+126,1,False,2,12,18,8,False,False,27,False,False,False,False,False,False,False,False,False,4,29,False,False,Normal,False,False,False,False,False,RunStopMiddle,Run1,10,8,0
+127,1,False,3,12,18,7,False,False,28,False,False,False,False,False,False,False,False,False,4,5,False,False,Normal,False,False,False,False,False,PassCover2,Pass2,17,6,0
