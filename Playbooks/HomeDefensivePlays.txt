@@ -1,0 +1,8 @@
+Kickoff,KickReturn, 1
+SafetyPunt,SafetyPuntReturn, 1
+Punt,PuntReturn, 1
+Normal,PassCover2, 1
+Normal,PassCover0, 1
+Normal,RunStopMiddle, 1
+Normal,RunStopOutside, 1
+XP,ExtraPointBlock, 1

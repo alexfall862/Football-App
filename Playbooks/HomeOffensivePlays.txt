@@ -1,0 +1,8 @@
+Kickoff,KickMiddle, 1
+SafetyPunt,SafetyPunt, 1
+Punt,PuntMiddle, 1
+Normal,Pass1, 1
+Normal,Pass2, 1
+Normal,Run1, 1
+Normal,Run2, 1
+XP,ExtraPoint, 1
