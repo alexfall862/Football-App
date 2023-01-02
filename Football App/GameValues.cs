@@ -65,6 +65,38 @@ public class GameValues
         public static int _kpreturnyards = 0;
         public static int _dreturnyards = 0;
         public static int _kickyards = 0;
+        public static string _ballcarrier = "";
+        public static string _tackler = "";
+        public static string _passer = "";
+        public static string _reciever = "";
+        public static string _defender = "";
+
+        public string Defender
+        {
+            get { return _defender; }
+            set { _defender = value; }
+        }
+        public string Reciever
+        {
+            get { return _reciever; }
+            set { _reciever = value; }
+        }
+        public string Passer
+        {
+            get { return _passer; }
+            set { _passer = value; }
+        }
+        public string Tackler
+        {
+            get { return _tackler; }
+            set { _tackler = value; }
+        }
+        public string BallCarrier
+        {
+            get { return _ballcarrier; }
+            set { _ballcarrier = value; }
+        }
+
         public int KickYards
         {
             get { return _kickyards; }

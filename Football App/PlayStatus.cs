@@ -46,6 +46,37 @@ namespace FootballApp
         public int _kpreturnyards = 0;
         public int _dreturnyards = 0;
         public int _kickyards = 0;
+        public string _ballcarrier = "";
+        public string _tackler = "";
+        public string _passer = "";
+        public string _reciever = "";
+        public string _defender = "";
+
+        public string Defender
+        {
+            get { return _defender; }
+            set { _defender = value; }
+        }
+        public string Reciever
+        {
+            get { return _reciever; }
+            set { _reciever = value; }
+        }
+        public string Passer
+        {
+            get { return _passer; }
+            set { _passer = value; }
+        }
+        public string Tackler
+        {
+            get { return _tackler; }
+            set { _tackler = value; }
+        }
+        public string BallCarrier
+        {
+            get { return _ballcarrier; }
+            set { _ballcarrier = value; }
+        }
         public int KickYards
         {
             get { return _kickyards; }
@@ -283,7 +314,12 @@ namespace FootballApp
             int kpreturnyards,
             int dreturnyards,
             int kickyards,
-            bool fgbad
+            bool fgbad,
+            string ballcarrier,
+            string tackler,
+            string passer,
+            string reciever,
+            string defender
             )
         {
             this._playID = playID;
@@ -322,6 +358,11 @@ namespace FootballApp
             this._dreturnyards = dreturnyards;
             this._kickyards = kickyards;
             this._fgbad = fgbad;
+            this._ballcarrier = ballcarrier;
+            this._tackler = tackler;
+            this._passer = passer;
+            this._reciever = reciever;
+            this._defender = defender;
         }
     }
 }

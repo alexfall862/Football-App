@@ -116,24 +116,24 @@ namespace FootballApp
                     int flip = rand.Next(0, 2);
                     if (flip == 0)
                     {
-                        Console.WriteLine("Coin flip goes for away");
+                        //Console.WriteLine("Coin flip goes for away");
                         GameValues._cointoss = false;
                     } else
                     {
-                        Console.WriteLine("Coin flip goes for home");
+                        //Console.WriteLine("Coin flip goes for home");
                         GameValues._cointoss = true;
                     }
 
                     if (GameValues._cointoss == true)
                     {
-                        Console.WriteLine("Triggered by overtime q5 game.");
+                        //Console.WriteLine("Triggered by overtime q5 game.");
                         GameValues._kickoff = true;
                         GameValues._playtype = "Kickoff";
                         GameValues._homepossession = false;
                     }
                     else
                     {
-                        Console.WriteLine("Triggered by overtime q5 game.");
+                        //Console.WriteLine("Triggered by overtime q5 game.");
                         GameValues._kickoff = true;
                         GameValues._playtype = "Kickoff";
                         GameValues._homepossession = true;
@@ -143,14 +143,14 @@ namespace FootballApp
                     GameValues._cointoss = !GameValues._cointoss;
                     if (GameValues._cointoss == true)
                     {
-                        Console.WriteLine("Triggered by ot game.");
+                        //Console.WriteLine("Triggered by ot game.");
                         GameValues._kickoff = true;
                         GameValues._playtype = "Kickoff";
                         GameValues._homepossession = false;
                     }
                     else
                     {
-                        Console.WriteLine("Triggered by ot game.");
+                        //Console.WriteLine("Triggered by ot game.");
                         GameValues._kickoff = true;
                         GameValues._playtype = "Kickoff";
                         GameValues._homepossession = true;
@@ -174,7 +174,7 @@ namespace FootballApp
                 GameValues._playtype = "Normal";
             }
 
-            if (GameValues._down == GameValues._allowabledowns)
+            if (GameValues._down == GameValues._allowabledowns & GameValues._td == false)
             {
                 //Here's where to insert function that returns play type as it's string value. Then assign that to _playtype.
                 GameValues._playtype = d.Evaluate4thDown(a);
@@ -231,15 +231,15 @@ namespace FootballApp
             } else if (x == "Normal")
             {
                 Random random = new Random();
-                GameValues._playyards = random.Next(1, 4);
+                GameValues._playyards = random.Next(-3, 15);
             } else if (x == "FG")
             {
                 GameValues._playyards = 0;
                 int accuracy;
                 Random random = new Random();
-                GameValues._kickyards = random.Next(50, 51);
+                GameValues._kickyards = random.Next(30, 60);
                 accuracy = random.Next(0,2);
-                Console.WriteLine("FG Kick Eval: " + GameValues._allowablefieldlength + " " + GameValues._los + " Final Outcome: " + (GameValues._allowablefieldlength - GameValues._los + 10) );
+                //Console.WriteLine("FG Kick Eval: " + GameValues._allowablefieldlength + " " + GameValues._los + " Final Outcome: " + (GameValues._allowablefieldlength - GameValues._los + 10) );
                 if (GameValues._kickyards < (GameValues._allowablefieldlength - GameValues._los + 10))
                 {
                     //Console.WriteLine("FG Short");
@@ -257,12 +257,12 @@ namespace FootballApp
             } else if (x == "Punt")
             {
                 Random random = new Random();
-                GameValues._kickyards = random.Next(100, 101);
+                GameValues._kickyards = random.Next(30, 40);
 
                 //Console.WriteLine("Punt Triggered");
                 if (GameValues._los + GameValues._kickyards >= GameValues._allowablefieldlength)
                 {
-                    Console.WriteLine("Punt Touchback Triggered");
+                    //Console.WriteLine("Punt Touchback Triggered");
                     //Punt Touchback, should add Touchback tag
                     //GameValues._los = GameValues._allowableptouchback;
                     GameValues._playyards = (GameValues._allowablefieldlength - GameValues._los) - GameValues._allowableptouchback;
@@ -271,9 +271,9 @@ namespace FootballApp
                 {
                     //Not touchback, should add return functionality.
 
-                    GameValues._playyards = 50;
-                    GameValues._kpreturnyards = random.Next(0, 1)*-1;
-                    Console.WriteLine("Punt Yardage net: " + (GameValues._playyards + GameValues._kpreturnyards));
+                    GameValues._playyards = GameValues._kickyards;
+                    GameValues._kpreturnyards = random.Next(0, 10)*-1;
+                    //Console.WriteLine("Punt Yardage net: " + (GameValues._playyards + GameValues._kpreturnyards));
                 }
             }
 

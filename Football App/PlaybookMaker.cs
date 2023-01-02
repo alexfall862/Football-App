@@ -22,7 +22,7 @@ namespace FootballApp
             string filePath = @"C:\Users\alexf\source\repos\Football App\Playbooks\" + name + ".txt";
             List<string> lines = new List<string>();
 
-            lines = File.ReadAllLines(filePath).ToList();
+            lines = File.ReadAllLines(filePath).Skip(1).ToList();
             foreach (string line in lines)
             {
                 object[] items = line.Split(',');

@@ -72,7 +72,12 @@ namespace FootballApp
                         gv.KPReturnYards,
                         gv.DReturnYards,
                         gv.KickYards,
-                        gv.FgBad
+                        gv.FgBad,
+                        gv.Tackler,
+                        gv.BallCarrier,
+                        gv.Passer,
+                        gv.Reciever,
+                        gv.Defender
                         ));
                     pi.PlayEval(gv.Down, gv.PlayYards, ListofPlayStatus);
                 }

@@ -1,3 +1,4 @@
+PlayType, PlayName, Weight
 Kickoff,KickReturn, 1
 SafetyPunt,SafetyPuntReturn, 1
 Punt,PuntReturn, 1

@@ -11,9 +11,9 @@ namespace FootballApp
         public string Evaluate4thDown(List<FootballApp.PlayStatus> a)
         {
             string decision;
-            if (a.Last().Los > 10)
+            if (a.Last().Los > 60)
             {
-                Console.WriteLine((a.Last().PlayID+1) + ": KICKING FG!!!");
+                //Console.WriteLine((a.Last().PlayID+1) + ": KICKING FG!!!");
                 decision = "FG";
                 return decision;
             }
