@@ -8,14 +8,14 @@ namespace FootballApp
 {
     public class PlayPicker
     {
-        public Plays PlayCallChooser(List<FootballApp.Plays> a, string playtype, int playid, bool hpossession)
+        public OffensivePlays PlayCallChooser(List<FootballApp.OffensivePlays> a, string playtype, int playid, bool hpossession)
         {
 
             if (hpossession == true)
             {
                 Random _rand = new Random();
                 int playtotalweight = 0;
-                List<Plays> cfdas = new List<Plays>();
+                List<OffensivePlays> cfdas = new List<OffensivePlays>();
                 foreach (var p in a.Where(p => p.PlayType == playtype & p.PlayTeam == "HomeOffensivePlays"))
                 {
                     playtotalweight += p.PlayWeight;
@@ -26,7 +26,7 @@ namespace FootballApp
                 //Console.WriteLine("Total Play Weight is: " + playtotalweight);
                 int _randomNumber = _rand.Next(0, playtotalweight);
                 //Console.WriteLine("Random number is: " + _randomNumber);
-                Plays selectedhplay;
+                OffensivePlays selectedhplay;
                 foreach (var p in cfdas)
                 {
                     if (_randomNumber < p.TotalPlayWeight)
@@ -44,7 +44,7 @@ namespace FootballApp
             {
                 Random _rand = new Random();
                 int playtotalweight = 0;
-                List<Plays> cfdas = new List<Plays>();
+                List<OffensivePlays> cfdas = new List<OffensivePlays>();
                 foreach (var p in a.Where(p => p.PlayType == playtype & p.PlayTeam == "HomeOffensivePlays"))
                 {
                     playtotalweight += p.PlayWeight;
@@ -55,7 +55,7 @@ namespace FootballApp
                 //Console.WriteLine("Total Play Weight is: " + playtotalweight);
                 int _randomNumber = _rand.Next(0, playtotalweight);
                 //Console.WriteLine("Random number is: " + _randomNumber);
-                Plays selectedaplay;
+                OffensivePlays selectedaplay;
                 foreach (var p in cfdas)
                 {
                     if (_randomNumber < p.TotalPlayWeight)
@@ -70,18 +70,18 @@ namespace FootballApp
                 }
             }
             Console.WriteLine($"PlayID: " + GameValues._playid + "\tHomePlayName: " + GameValues._hplaycall + "\tAwayPlayName: " + GameValues._aplaycall);
-            Plays testplay = a.First();
+            OffensivePlays testplay = a.First();
             return testplay;
         }
 
-        public Plays PlayCallReactor(List<FootballApp.Plays> a, string playtype, int playid, bool hpossession)
+        public DefensivePlays PlayCallReactor(List<FootballApp.DefensivePlays> a, string playtype, int playid, bool hpossession)
         {
 
             if (hpossession == true)
             {
                 Random _rand = new Random();
                 int playtotalweight = 0;
-                List<Plays> cfdas = new List<Plays>();
+                List<DefensivePlays> cfdas = new List<DefensivePlays>();
                 foreach (var p in a.Where(p => p.PlayType == playtype & p.PlayTeam == "AwayDefensivePlays"))
                 {
                     playtotalweight += p.PlayWeight;
@@ -92,7 +92,7 @@ namespace FootballApp
                 //Console.WriteLine("Total Play Weight is: " + playtotalweight);
                 int _randomNumber = _rand.Next(0, playtotalweight);
                 //Console.WriteLine("Random number is: " + _randomNumber);
-                Plays selectedaplay;
+                DefensivePlays selectedaplay;
                 foreach (var p in cfdas)
                 {
                     if (_randomNumber < p.TotalPlayWeight)
@@ -109,7 +109,7 @@ namespace FootballApp
             {
                 Random _rand = new Random();
                 int playtotalweight = 0;
-                List<Plays> cfdas = new List<Plays>();
+                List<DefensivePlays> cfdas = new List<DefensivePlays>();
                 foreach (var p in a.Where(p => p.PlayType == playtype & p.PlayTeam == "HomeDefensivePlays"))
                 {
                     playtotalweight += p.PlayWeight;
@@ -120,7 +120,7 @@ namespace FootballApp
                 //Console.WriteLine("Total Play Weight is: " + playtotalweight);
                 int _randomNumber = _rand.Next(0, playtotalweight);
                 //Console.WriteLine("Random number is: " + _randomNumber);
-                Plays selectedhplay;
+                DefensivePlays selectedhplay;
                 foreach (var p in cfdas)
                 {
                     if (_randomNumber < p.TotalPlayWeight)
@@ -135,7 +135,7 @@ namespace FootballApp
                 }
             }
             Console.WriteLine($"No Play Selected!!!*****************PlayID: " + GameValues._playid + "\tHomePlayName: " + GameValues._hplaycall + "\tAwayPlayName: " + GameValues._aplaycall);
-            Plays testplay = a.First();
+            DefensivePlays testplay = a.First();
             return testplay;
         }
     }

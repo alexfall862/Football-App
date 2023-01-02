@@ -155,7 +155,7 @@ namespace FootballApp
             //}
         }
 
-        public void TestofSearch2(List<FootballApp.Plays> a)
+        public void TestofSearch2(List<FootballApp.OffensivePlays> a)
         {
             foreach (var p in a)
             {
@@ -167,7 +167,7 @@ namespace FootballApp
             //}
         }
 
-        public void TestofSearch3(List<FootballApp.Plays> a, string playtype, int playid)
+        public void TestofSearch3(List<FootballApp.OffensivePlays> a, string playtype, int playid)
         {
             foreach (var p in a.Where(p => p.PlayType == playtype).Take(1))
             {
