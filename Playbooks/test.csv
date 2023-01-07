@@ -1,132 +1,130 @@
 PlayID,Yardage,HomePossession,Down,HtScore,AtScore,YardsToGo,TurnoverOnDowns,FirstDownAchieved,Los,Td,DTd,FgGood,FgBad,Safety,DSafety,XpGood,TwoConv,TwoConvReturned,Quarter,Time,ExtraPointTry,Kickoff,PlayType,XpBad,Punt,SafetyPunt,PuntAttempt,Touchback,HPlayCall,APlayCall,PreSnapRunoff,PlayLengthReturn Yards
 1,75,False,0,0,0,0,False,False,25,False,False,False,False,False,False,False,False,False,1,900,False,True,Kickoff,False,False,False,False,True,Kickoff Return,Kickoff,0,0,0
-2,-1,True,1,0,0,10,False,False,25,False,False,False,False,False,False,False,False,False,1,876,False,False,Normal,False,False,False,False,False,Hitches,Cover 2,16,8,0
-3,2,True,2,0,0,11,False,False,24,False,False,False,False,False,False,False,False,False,1,844,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 3 Mike Blitz,26,5,0
-4,7,True,3,0,0,9,False,False,26,False,False,False,False,False,False,False,False,False,1,809,False,False,Normal,False,False,False,False,False,Toss,Cover 2,27,7,0
-5,32,True,4,0,0,2,False,False,33,False,False,False,False,False,False,False,False,False,1,793,False,False,Punt,False,True,False,False,False,Punt,Punt Return,9,6,-2
-6,7,False,1,0,0,10,False,False,37,False,False,False,False,False,False,False,False,False,1,769,False,False,Normal,False,False,False,False,False,All Out Blitz,RB Power,19,5,0
-7,9,False,2,0,0,3,False,True,44,False,False,False,False,False,False,False,False,False,1,752,False,False,Normal,False,False,False,False,False,Cover 1 SS Blitz,RB Dive,10,6,0
-8,10,False,1,0,0,10,False,True,53,False,False,False,False,False,False,False,False,False,1,716,False,False,Normal,False,False,False,False,False,Cover 0,Toss,29,6,0
-9,7,False,1,0,0,10,False,False,63,False,False,False,False,False,False,False,False,False,1,705,False,False,Normal,False,False,False,False,False,All Out Blitz,RB Power,5,5,0
-10,4,False,2,0,0,3,False,True,70,False,False,False,False,False,False,False,False,False,1,662,False,False,Normal,False,False,False,False,False,Cover 1,Hitches,36,6,0
-11,0,False,1,0,0,10,False,False,74,False,False,False,False,False,False,False,False,False,1,615,False,False,Normal,False,False,False,False,False,Cover 2,Posts,38,8,0
-12,0,False,2,0,0,10,False,False,74,False,False,False,False,False,False,False,False,False,1,592,False,False,Normal,False,False,False,False,False,Cover 2,Hitches,15,7,0
-13,13,False,3,0,0,10,False,True,74,False,False,False,False,False,False,False,False,False,1,555,False,False,Normal,False,False,False,False,False,Cover 1 SS Blitz,Hitches,29,7,0
-14,2,False,1,0,0,10,False,False,87,False,False,False,False,False,False,False,False,False,1,539,False,False,Normal,False,False,False,False,False,All Out Blitz,RB Dive,10,5,0
-15,1,False,2,0,0,8,False,False,89,False,False,False,False,False,False,False,False,False,1,517,False,False,Normal,False,False,False,False,False,Cover 1 SS Blitz,Posts,14,7,0
-16,4,False,3,0,0,7,False,False,90,False,False,False,False,False,False,False,False,False,1,496,False,False,Normal,False,False,False,False,False,Cover 4,RB Weakside Dive,12,8,0
-17,0,False,4,0,3,3,False,False,94,False,False,True,False,False,False,False,False,False,1,463,False,False,FG,False,False,False,False,False,FG Block,Field Goal,24,8,0
-18,75,False,0,0,3,0,False,False,25,False,False,False,False,False,False,False,False,False,1,450,False,True,Kickoff,False,False,False,False,True,Kickoff Return,Kickoff,6,7,0
-19,6,True,1,0,3,10,False,False,25,False,False,False,False,False,False,False,False,False,1,434,False,False,Normal,False,False,False,False,False,PA Deep Prayer,All Out Blitz,8,8,0
-20,5,True,2,0,3,4,False,True,31,False,False,False,False,False,False,False,False,False,1,401,False,False,Normal,False,False,False,False,False,RB Power,Cover 2,26,6,0
-21,1,True,1,0,3,10,False,False,36,False,False,False,False,False,False,False,False,False,1,387,False,False,Normal,False,False,False,False,False,RB Dive,Cover 4,6,7,0
-22,11,True,2,0,3,9,False,True,37,False,False,False,False,False,False,False,False,False,1,368,False,False,Normal,False,False,False,False,False,RB Power,Prevent,10,8,0
-23,11,True,1,0,3,10,False,True,48,False,False,False,False,False,False,False,False,False,1,356,False,False,Normal,False,False,False,False,False,RB Power,Cover 4,5,6,0
-24,2,True,1,0,3,10,False,False,59,False,False,False,False,False,False,False,False,False,1,317,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 4,31,7,0
-25,13,True,2,0,3,8,False,True,61,False,False,False,False,False,False,False,False,False,1,294,False,False,Normal,False,False,False,False,False,Posts,Cover 0,16,6,0
-26,4,True,1,0,3,10,False,False,74,False,False,False,False,False,False,False,False,False,1,263,False,False,Normal,False,False,False,False,False,PA TE Cross RB Wheel,Cover 1 SS Blitz,24,6,0
-27,5,True,2,0,3,6,False,False,78,False,False,False,False,False,False,False,False,False,1,233,False,False,Normal,False,False,False,False,False,RB Power,Cover 0,22,7,0
-28,-2,True,3,0,3,1,False,False,83,False,False,False,False,False,False,False,False,False,1,200,False,False,Normal,False,False,False,False,False,RB Power,Cover 2,24,8,0
-29,0,True,4,0,3,3,False,False,81,False,False,False,True,False,False,False,False,False,1,168,False,False,FG,False,False,False,False,False,Field Goal,FG Block,23,8,0
-30,-1,False,1,0,3,10,False,False,19,False,False,False,False,False,False,False,False,False,1,157,False,False,Normal,False,False,False,False,False,All Out Blitz,RB Weakside Dive,5,6,0
-31,9,False,2,0,3,11,False,False,18,False,False,False,False,False,False,False,False,False,1,146,False,False,Normal,False,False,False,False,False,Prevent,RB Dive,5,5,0
-32,4,False,3,0,3,2,False,True,27,False,False,False,False,False,False,False,False,False,1,133,False,False,Normal,False,False,False,False,False,Cover 0,Toss,7,5,0
-33,6,False,1,0,3,10,False,False,31,False,False,False,False,False,False,False,False,False,1,106,False,False,Normal,False,False,False,False,False,Cover 2,RB Dive,19,7,0
-34,4,False,2,0,3,4,False,True,37,False,False,False,False,False,False,False,False,False,1,87,False,False,Normal,False,False,False,False,False,Cover 1 SS Blitz,RB Power,13,5,0
-35,0,False,1,0,3,10,False,False,41,False,False,False,False,False,False,False,False,False,1,70,False,False,Normal,False,False,False,False,False,Cover 3 Mike Blitz,RB Dive,8,8,0
-36,-3,False,2,0,3,10,False,False,41,False,False,False,False,False,False,False,False,False,1,37,False,False,Normal,False,False,False,False,False,Cover 4 SS Spy,RB Weakside Dive,25,7,0
-37,-3,False,3,0,3,13,False,False,38,False,False,False,False,False,False,False,False,False,1,13,False,False,Normal,False,False,False,False,False,All Out Blitz,RB Weakside Dive,17,6,0
-38,35,False,4,0,3,16,False,False,35,False,False,False,False,False,False,False,False,False,2,900,False,False,Punt,False,True,False,False,False,Punt Return,Punt,30,7,-6
-39,5,True,1,0,3,10,False,False,36,False,False,False,False,False,False,False,False,False,2,869,False,False,Normal,False,False,False,False,False,RB Power,Cover 1 SS Blitz,23,8,0
-40,8,True,2,0,3,5,False,True,41,False,False,False,False,False,False,False,False,False,2,829,False,False,Normal,False,False,False,False,False,RB Power,Cover 3 Mike Blitz,31,8,0
-41,-3,True,1,0,3,10,False,False,49,False,False,False,False,False,False,False,False,False,2,817,False,False,Normal,False,False,False,False,False,RB Dive,Cover 2,6,5,0
-42,12,True,2,0,3,13,False,False,46,False,False,False,False,False,False,False,False,False,2,784,False,False,Normal,False,False,False,False,False,Toss,Cover 4 SS Spy,26,6,0
-43,7,True,3,0,3,1,False,True,58,False,False,False,False,False,False,False,False,False,2,772,False,False,Normal,False,False,False,False,False,Toss,Cover 2,6,5,0
-44,1,True,1,0,3,10,False,False,65,False,False,False,False,False,False,False,False,False,2,748,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Prevent,15,8,0
-45,2,True,2,0,3,9,False,False,66,False,False,False,False,False,False,False,False,False,2,707,False,False,Normal,False,False,False,False,False,PA TE Cross RB Wheel,Cover 0,34,6,0
-46,-2,True,3,0,3,7,False,False,68,False,False,False,False,False,False,False,False,False,2,679,False,False,Normal,False,False,False,False,False,Posts,Cover 0,20,7,0
-47,0,True,4,0,3,9,False,False,66,False,False,False,True,False,False,False,False,False,2,656,False,False,FG,False,False,False,False,False,Field Goal,FG Block,14,8,0
-48,1,False,1,0,3,10,False,False,34,False,False,False,False,False,False,False,False,False,2,623,False,False,Normal,False,False,False,False,False,Cover 0,Toss,26,7,0
-49,5,False,2,0,3,9,False,False,35,False,False,False,False,False,False,False,False,False,2,603,False,False,Normal,False,False,False,False,False,Cover 1,Hitches,12,7,0
-50,5,False,3,0,3,4,False,True,40,False,False,False,False,False,False,False,False,False,2,580,False,False,Normal,False,False,False,False,False,Cover 3 Mike Blitz,Posts,15,7,0
-51,-3,False,1,0,3,10,False,False,45,False,False,False,False,False,False,False,False,False,2,535,False,False,Normal,False,False,False,False,False,Cover 4 SS Spy,RB Dive,36,8,0
-52,14,False,2,0,3,13,False,True,42,False,False,False,False,False,False,False,False,False,2,500,False,False,Normal,False,False,False,False,False,Cover 2,RB Power,26,8,0
-53,12,False,1,0,3,10,False,True,56,False,False,False,False,False,False,False,False,False,2,481,False,False,Normal,False,False,False,False,False,Cover 4,RB Power,10,8,0
-54,2,False,1,0,3,10,False,False,68,False,False,False,False,False,False,False,False,False,2,465,False,False,Normal,False,False,False,False,False,Cover 2,RB Power,7,8,0
-55,6,False,2,0,3,8,False,False,70,False,False,False,False,False,False,False,False,False,2,420,False,False,Normal,False,False,False,False,False,Cover 1 SS Blitz,Hitches,39,5,0
-56,9,False,3,0,3,2,False,True,76,False,False,False,False,False,False,False,False,False,2,396,False,False,Normal,False,False,False,False,False,All Out Blitz,PA Deep Prayer,16,7,0
-57,0,False,1,0,3,10,False,False,85,False,False,False,False,False,False,False,False,False,2,373,False,False,Normal,False,False,False,False,False,Prevent,PA TE Cross RB Wheel,16,6,0
-58,-2,False,2,0,3,10,False,False,85,False,False,False,False,False,False,False,False,False,2,346,False,False,Normal,False,False,False,False,False,Cover 2,PA Deep Prayer,21,5,0
-59,10,False,3,0,3,12,False,False,83,False,False,False,False,False,False,False,False,False,2,300,False,False,Normal,False,False,False,False,False,Prevent,PA TE Cross RB Wheel,37,8,0
-60,0,False,4,0,6,2,False,False,93,False,False,True,False,False,False,False,False,False,2,261,False,False,FG,False,False,False,False,False,FG Block,Field Goal,30,8,0
-61,75,False,0,0,6,0,False,False,25,False,False,False,False,False,False,False,False,False,2,243,False,True,Kickoff,False,False,False,False,True,Kickoff Return,Kickoff,10,8,0
-62,12,True,1,0,6,10,False,True,25,False,False,False,False,False,False,False,False,False,2,225,False,False,Normal,False,False,False,False,False,PA Deep Prayer,All Out Blitz,12,6,0
-63,0,True,1,0,6,10,False,False,37,False,False,False,False,False,False,False,False,False,2,202,False,False,Normal,False,False,False,False,False,PA TE Cross RB Wheel,Cover 4 SS Spy,14,8,0
-64,5,True,2,0,6,10,False,False,37,False,False,False,False,False,False,False,False,False,2,164,False,False,Normal,False,False,False,False,False,RB Dive,Cover 2,29,8,0
-65,5,True,3,0,6,5,False,True,42,False,False,False,False,False,False,False,False,False,2,127,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Cover 3 Mike Blitz,31,5,0
-66,3,True,1,0,6,10,False,False,47,False,False,False,False,False,False,False,False,False,2,86,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Prevent,34,6,0
-67,6,True,2,0,6,7,False,False,50,False,False,False,False,False,False,False,False,False,2,48,False,False,Normal,False,False,False,False,False,Toss,Prevent,29,8,0
-68,8,True,3,0,6,1,False,True,56,False,False,False,False,False,False,False,False,False,2,13,False,False,Normal,False,False,False,False,False,Toss,Cover 2,26,8,0
-69,75,True,0,0,6,0,False,False,25,False,False,False,False,False,False,False,False,False,3,900,False,True,Kickoff,False,False,False,False,True,Kickoff,Kickoff Return,30,7,0
-70,-3,False,1,0,6,10,False,False,25,False,False,False,False,False,False,False,False,False,3,867,False,False,Normal,False,False,False,False,False,Cover 3 Mike Blitz,RB Dive,28,5,0
-71,13,False,2,0,6,13,False,True,22,False,False,False,False,False,False,False,False,False,3,824,False,False,Normal,False,False,False,False,False,Cover 3 Mike Blitz,RB Dive,35,7,0
-72,-1,False,1,0,6,10,False,False,35,False,False,False,False,False,False,False,False,False,3,782,False,False,Normal,False,False,False,False,False,Prevent,RB Dive,36,5,0
-73,4,False,2,0,6,11,False,False,34,False,False,False,False,False,False,False,False,False,3,749,False,False,Normal,False,False,False,False,False,Cover 4 SS Spy,RB Dive,25,7,0
-74,0,False,3,0,6,7,False,False,38,False,False,False,False,False,False,False,False,False,3,721,False,False,Normal,False,False,False,False,False,Cover 4,RB Dive,20,7,0
-75,38,False,4,0,6,7,False,False,38,False,False,False,False,False,False,False,False,False,3,692,False,False,Punt,False,True,False,False,False,Punt Return,Punt,20,8,-9
-76,8,True,1,0,6,10,False,False,33,False,False,False,False,False,False,False,False,False,3,660,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Cover 1,27,5,0
-77,4,True,2,0,6,2,False,True,41,False,False,False,False,False,False,False,False,False,3,620,False,False,Normal,False,False,False,False,False,Toss,Cover 1,32,7,0
-78,0,True,1,0,6,10,False,False,45,False,False,False,False,False,False,False,False,False,3,585,False,False,Normal,False,False,False,False,False,RB Dive,Cover 2,26,8,0
-79,-3,True,2,0,6,10,False,False,45,False,False,False,False,False,False,False,False,False,3,546,False,False,Normal,False,False,False,False,False,PA TE Cross RB Wheel,Cover 2,33,5,0
-80,10,True,3,0,6,13,False,False,42,False,False,False,False,False,False,False,False,False,3,504,False,False,Normal,False,False,False,False,False,RB Power,Cover 0,35,6,0
-81,34,True,4,0,6,3,False,False,52,False,False,False,False,False,False,False,False,False,3,459,False,False,Punt,False,True,False,False,False,Punt,Punt Return,36,8,-9
-82,5,False,1,0,6,10,False,False,23,False,False,False,False,False,False,False,False,False,3,432,False,False,Normal,False,False,False,False,False,All Out Blitz,RB Dive,21,6,0
-83,11,False,2,0,6,5,False,True,28,False,False,False,False,False,False,False,False,False,3,395,False,False,Normal,False,False,False,False,False,Cover 4 SS Spy,PA TE Cross RB Wheel,29,7,0
-84,2,False,1,0,6,10,False,False,39,False,False,False,False,False,False,False,False,False,3,380,False,False,Normal,False,False,False,False,False,Cover 2,Toss,9,5,0
-85,0,False,2,0,6,8,False,False,41,False,False,False,False,False,False,False,False,False,3,365,False,False,Normal,False,False,False,False,False,Prevent,Hitches,8,6,0
-86,-1,False,3,0,6,8,False,False,41,False,False,False,False,False,False,False,False,False,3,322,False,False,Normal,False,False,False,False,False,Cover 2,Posts,36,6,0
-87,32,False,4,0,6,9,False,False,40,False,False,False,False,False,False,False,False,False,3,292,False,False,Punt,False,True,False,False,False,Punt Return,Punt,23,6,-3
-88,-2,True,1,0,6,10,False,False,31,False,False,False,False,False,False,False,False,False,3,274,False,False,Normal,False,False,False,False,False,RB Weakside Dive,All Out Blitz,10,8,0
-89,10,True,2,0,6,12,False,False,29,False,False,False,False,False,False,False,False,False,3,250,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Cover 4,18,5,0
-90,8,True,3,0,6,2,False,True,39,False,False,False,False,False,False,False,False,False,3,227,False,False,Normal,False,False,False,False,False,Toss,All Out Blitz,15,7,0
-91,3,True,1,0,6,10,False,False,47,False,False,False,False,False,False,False,False,False,3,191,False,False,Normal,False,False,False,False,False,PA TE Cross RB Wheel,Cover 0,30,5,0
-92,4,True,2,0,6,7,False,False,50,False,False,False,False,False,False,False,False,False,3,147,False,False,Normal,False,False,False,False,False,Hitches,Cover 2,38,5,0
-93,1,True,3,0,6,3,False,False,54,False,False,False,False,False,False,False,False,False,3,112,False,False,Normal,False,False,False,False,False,Posts,Cover 3 Mike Blitz,28,6,0
-94,33,True,4,0,6,2,False,False,55,False,False,False,False,False,False,False,False,False,3,66,False,False,Punt,False,True,False,False,False,Punt,Punt Return,37,8,0
-95,11,False,1,0,6,10,False,True,12,False,False,False,False,False,False,False,False,False,3,50,False,False,Normal,False,False,False,False,False,Cover 0,PA TE Cross RB Wheel,9,7,0
-96,0,False,1,0,6,10,False,False,23,False,False,False,False,False,False,False,False,False,3,22,False,False,Normal,False,False,False,False,False,Cover 1 SS Blitz,PA TE Cross RB Wheel,21,6,0
-97,8,False,2,0,6,10,False,False,23,False,False,False,False,False,False,False,False,False,4,900,False,False,Normal,False,False,False,False,False,Cover 2,RB Power,21,8,0
-98,11,False,3,0,6,2,False,True,31,False,False,False,False,False,False,False,False,False,4,875,False,False,Normal,False,False,False,False,False,Cover 2,RB Weakside Dive,18,6,0
-99,1,False,1,0,6,10,False,False,42,False,False,False,False,False,False,False,False,False,4,843,False,False,Normal,False,False,False,False,False,Cover 3 Mike Blitz,Toss,25,6,0
-100,6,False,2,0,6,9,False,False,43,False,False,False,False,False,False,False,False,False,4,798,False,False,Normal,False,False,False,False,False,Cover 0,PA Deep Prayer,39,5,0
-101,9,False,3,0,6,3,False,True,49,False,False,False,False,False,False,False,False,False,4,776,False,False,Normal,False,False,False,False,False,Cover 1 SS Blitz,Posts,14,7,0
-102,5,False,1,0,6,10,False,False,58,False,False,False,False,False,False,False,False,False,4,761,False,False,Normal,False,False,False,False,False,Prevent,RB Weakside Dive,8,6,0
-103,3,False,2,0,6,5,False,False,63,False,False,False,False,False,False,False,False,False,4,746,False,False,Normal,False,False,False,False,False,Prevent,RB Weakside Dive,9,5,0
-104,1,False,3,0,6,2,False,False,66,False,False,False,False,False,False,False,False,False,4,706,False,False,Normal,False,False,False,False,False,Cover 3 Mike Blitz,PA TE Cross RB Wheel,34,5,0
-105,0,False,4,0,6,1,False,False,67,False,False,False,True,False,False,False,False,False,4,687,False,False,FG,False,False,False,False,False,FG Block,Field Goal,12,6,0
-106,-3,True,1,0,6,10,False,False,33,False,False,False,False,False,False,False,False,False,4,661,False,False,Normal,False,False,False,False,False,Posts,Cover 1 SS Blitz,19,7,0
-107,14,True,2,0,6,13,False,True,30,False,False,False,False,False,False,False,False,False,4,633,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 2,20,7,0
-108,8,True,1,0,6,10,False,False,44,False,False,False,False,False,False,False,False,False,4,586,False,False,Normal,False,False,False,False,False,Posts,Cover 2,38,8,0
-109,-1,True,2,0,6,2,False,False,52,False,False,False,False,False,False,False,False,False,4,567,False,False,Normal,False,False,False,False,False,Hitches,Cover 3 Mike Blitz,13,5,0
-110,9,True,3,0,6,3,False,True,51,False,False,False,False,False,False,False,False,False,4,547,False,False,Normal,False,False,False,False,False,PA TE Cross RB Wheel,All Out Blitz,12,7,0
-111,-1,True,1,0,6,10,False,False,60,False,False,False,False,False,False,False,False,False,4,509,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 2,31,6,0
-112,13,True,2,0,6,11,False,True,59,False,False,False,False,False,False,False,False,False,4,493,False,False,Normal,False,False,False,False,False,Toss,Cover 2,8,7,0
-113,0,True,1,0,6,10,False,False,72,False,False,False,False,False,False,False,False,False,4,464,False,False,Normal,False,False,False,False,False,Posts,Cover 1 SS Blitz,22,6,0
-114,1,True,2,0,6,10,False,False,72,False,False,False,False,False,False,False,False,False,4,448,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Cover 1 SS Blitz,7,8,0
-115,-2,True,3,0,6,9,False,False,73,False,False,False,False,False,False,False,False,False,4,423,False,False,Normal,False,False,False,False,False,Toss,Cover 2,17,7,0
-116,0,True,4,3,6,11,False,False,71,False,False,True,False,False,False,False,False,False,4,402,False,False,FG,False,False,False,False,False,Field Goal,FG Block,14,6,0
-117,75,True,0,3,6,0,False,False,25,False,False,False,False,False,False,False,False,False,4,378,False,True,Kickoff,False,False,False,False,True,Kickoff,Kickoff Return,17,7,0
-118,2,False,1,3,6,10,False,False,25,False,False,False,False,False,False,False,False,False,4,340,False,False,Normal,False,False,False,False,False,Cover 0,Toss,33,5,0
-119,3,False,2,3,6,8,False,False,27,False,False,False,False,False,False,False,False,False,4,315,False,False,Normal,False,False,False,False,False,Cover 2,Hitches,16,8,0
-120,1,False,3,3,6,5,False,False,30,False,False,False,False,False,False,False,False,False,4,286,False,False,Normal,False,False,False,False,False,Cover 2,RB Weakside Dive,23,5,0
-121,35,False,4,3,6,4,False,False,31,False,False,False,False,False,False,False,False,False,4,273,False,False,Punt,False,True,False,False,False,Punt Return,Punt,7,5,-3
-122,11,True,1,3,6,10,False,True,37,False,False,False,False,False,False,False,False,False,4,257,False,False,Normal,False,False,False,False,False,PA TE Cross RB Wheel,All Out Blitz,8,8,0
-123,11,True,1,3,6,10,False,True,48,False,False,False,False,False,False,False,False,False,4,214,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 1,35,7,0
-124,7,True,1,3,6,10,False,False,59,False,False,False,False,False,False,False,False,False,4,181,False,False,Normal,False,False,False,False,False,RB Power,Cover 4,27,5,0
-125,3,True,2,3,6,3,False,True,66,False,False,False,False,False,False,False,False,False,4,146,False,False,Normal,False,False,False,False,False,RB Power,Cover 2,28,6,0
-126,10,True,1,3,6,10,False,True,69,False,False,False,False,False,False,False,False,False,4,130,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Prevent,7,8,0
-127,-3,True,1,3,6,10,False,False,79,False,False,False,False,False,False,False,False,False,4,91,False,False,Normal,False,False,False,False,False,RB Dive,Prevent,31,7,0
-128,9,True,2,3,6,13,False,False,76,False,False,False,False,False,False,False,False,False,4,74,False,False,Normal,False,False,False,False,False,Hitches,All Out Blitz,9,7,0
-129,13,True,3,3,6,4,False,True,85,False,False,False,False,False,False,False,False,False,4,46,False,False,Normal,False,False,False,False,False,PA Deep Prayer,All Out Blitz,21,6,0
-130,2,True,1,9,6,10,False,True,98,True,False,False,False,False,False,False,False,False,4,4,False,False,Normal,False,False,False,False,False,RB Power,Cover 3 Mike Blitz,35,6,0
-131,0,True,0,10,6,0,False,False,98,False,False,False,False,False,False,True,False,False,4,-28,True,False,XP,False,False,False,False,False,Field Goal,FG Block,26,5,0
+2,5,True,1,0,0,10,False,False,25,False,False,False,False,False,False,False,False,False,1,888,False,False,Normal,False,False,False,False,False,RB Dive,Cover 1 SS Blitz,7,5,0
+3,10,True,2,0,0,5,False,True,30,False,False,False,False,False,False,False,False,False,1,856,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Prevent,25,6,0
+4,12,True,1,0,0,10,False,True,40,False,False,False,False,False,False,False,False,False,1,833,False,False,Normal,False,False,False,False,False,RB Power,All Out Blitz,15,7,0
+5,8,True,1,0,0,10,False,False,52,False,False,False,False,False,False,False,False,False,1,798,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 0,26,8,0
+6,1,True,2,0,0,2,False,False,60,False,False,False,False,False,False,False,False,False,1,773,False,False,Normal,False,False,False,False,False,Toss,Cover 1,18,6,0
+7,2,True,3,0,0,1,False,True,61,False,False,False,False,False,False,False,False,False,1,733,False,False,Normal,False,False,False,False,False,RB Power,Cover 2,34,5,0
+8,9,True,1,0,0,10,False,False,63,False,False,False,False,False,False,False,False,False,1,696,False,False,Normal,False,False,False,False,False,Posts,Prevent,31,5,0
+9,5,True,2,0,0,1,False,True,72,False,False,False,False,False,False,False,False,False,1,670,False,False,Normal,False,False,False,False,False,Toss,Cover 1,17,8,0
+10,6,True,1,0,0,10,False,False,77,False,False,False,False,False,False,False,False,False,1,649,False,False,Normal,False,False,False,False,False,Hitches,Cover 2,13,7,0
+11,12,True,2,0,0,4,False,True,83,False,False,False,False,False,False,False,False,False,1,607,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Cover 4,36,5,0
+12,5,True,1,6,0,10,False,False,95,True,False,False,False,False,False,False,False,False,1,590,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 4,8,8,0
+13,0,True,0,7,0,0,False,False,98,False,False,False,False,False,False,True,False,False,1,545,True,False,XP,False,False,False,False,False,Field Goal,FG Block,37,7,0
+14,75,True,0,7,0,0,False,False,25,False,False,False,False,False,False,False,False,False,1,545,False,True,Kickoff,False,False,False,False,True,Kickoff,Kickoff Return,37,7,0
+15,8,False,1,7,0,10,False,False,25,False,False,False,False,False,False,False,False,False,1,507,False,False,Normal,False,False,False,False,False,All Out Blitz,Posts,32,6,0
+16,14,False,2,7,0,2,False,True,33,False,False,False,False,False,False,False,False,False,1,481,False,False,Normal,False,False,False,False,False,All Out Blitz,RB Weakside Dive,17,8,0
+17,8,False,1,7,0,10,False,False,47,False,False,False,False,False,False,False,False,False,1,466,False,False,Normal,False,False,False,False,False,Cover 2,Toss,7,7,0
+18,13,False,2,7,0,2,False,True,55,False,False,False,False,False,False,False,False,False,1,445,False,False,Normal,False,False,False,False,False,Cover 4 SS Spy,Posts,13,7,0
+19,4,False,1,7,0,10,False,False,68,False,False,False,False,False,False,False,False,False,1,427,False,False,Normal,False,False,False,False,False,Cover 2,Hitches,12,5,0
+20,14,False,2,7,0,6,False,True,72,False,False,False,False,False,False,False,False,False,1,405,False,False,Normal,False,False,False,False,False,Cover 4 SS Spy,RB Weakside Dive,16,5,0
+21,13,False,1,7,0,10,False,True,86,False,False,False,False,False,False,False,False,False,1,360,False,False,Normal,False,False,False,False,False,Cover 1,RB Power,37,7,0
+22,1,False,1,7,6,10,False,False,99,True,False,False,False,False,False,False,False,False,1,340,False,False,Normal,False,False,False,False,False,Prevent,RB Power,11,8,0
+23,0,False,0,7,7,0,False,False,98,False,False,False,False,False,False,True,False,False,1,314,True,False,XP,False,False,False,False,False,FG Block,Field Goal,17,8,0
+24,75,False,0,7,7,0,False,False,25,False,False,False,False,False,False,False,False,False,1,314,False,True,Kickoff,False,False,False,False,True,Kickoff Return,Kickoff,17,8,0
+25,9,True,1,7,7,10,False,False,25,False,False,False,False,False,False,False,False,False,1,298,False,False,Normal,False,False,False,False,False,Posts,Cover 0,10,6,0
+26,3,True,2,7,7,1,False,True,34,False,False,False,False,False,False,False,False,False,1,284,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 2,7,6,0
+27,4,True,1,7,7,10,False,False,37,False,False,False,False,False,False,False,False,False,1,252,False,False,Normal,False,False,False,False,False,RB Power,Cover 0,23,8,0
+28,2,True,2,7,7,6,False,False,41,False,False,False,False,False,False,False,False,False,1,204,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 1,39,8,0
+29,12,True,3,7,7,4,False,True,43,False,False,False,False,False,False,False,False,False,1,170,False,False,Normal,False,False,False,False,False,RB Dive,Cover 1 SS Blitz,27,6,0
+30,-1,True,1,7,7,10,False,False,55,False,False,False,False,False,False,False,False,False,1,152,False,False,Normal,False,False,False,False,False,RB Dive,Cover 2,9,8,0
+31,10,True,2,7,7,11,False,False,54,False,False,False,False,False,False,False,False,False,1,107,False,False,Normal,False,False,False,False,False,RB Dive,Cover 4 SS Spy,36,8,0
+32,6,True,3,7,7,1,False,True,64,False,False,False,False,False,False,False,False,False,1,74,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Cover 3 Mike Blitz,26,6,0
+33,0,True,1,7,7,10,False,False,70,False,False,False,False,False,False,False,False,False,1,56,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Cover 4,11,6,0
+34,-3,True,2,7,7,10,False,False,70,False,False,False,False,False,False,False,False,False,1,21,False,False,Normal,False,False,False,False,False,PA TE Cross RB Wheel,Cover 4,26,8,0
+35,10,True,3,7,7,13,False,False,67,False,False,False,False,False,False,False,False,False,1,2,False,False,Normal,False,False,False,False,False,Toss,Cover 2,11,7,0
+36,0,True,4,7,7,3,False,False,77,False,False,False,True,False,False,False,False,False,2,900,False,False,FG,False,False,False,False,False,Field Goal,FG Block,24,5,0
+37,4,False,1,7,7,10,False,False,23,False,False,False,False,False,False,False,False,False,2,886,False,False,Normal,False,False,False,False,False,Cover 1 SS Blitz,PA TE Cross RB Wheel,7,7,0
+38,10,False,2,7,7,6,False,True,27,False,False,False,False,False,False,False,False,False,2,857,False,False,Normal,False,False,False,False,False,Cover 2,RB Weakside Dive,22,6,0
+39,12,False,1,7,7,10,False,True,37,False,False,False,False,False,False,False,False,False,2,822,False,False,Normal,False,False,False,False,False,Cover 4 SS Spy,PA Deep Prayer,26,8,0
+40,4,False,1,7,7,10,False,False,49,False,False,False,False,False,False,False,False,False,2,791,False,False,Normal,False,False,False,False,False,Cover 2,Hitches,22,8,0
+41,7,False,2,7,7,6,False,True,53,False,False,False,False,False,False,False,False,False,2,750,False,False,Normal,False,False,False,False,False,All Out Blitz,Posts,33,7,0
+42,13,False,1,7,7,10,False,True,60,False,False,False,False,False,False,False,False,False,2,712,False,False,Normal,False,False,False,False,False,Cover 0,PA Deep Prayer,31,6,0
+43,4,False,1,7,7,10,False,False,73,False,False,False,False,False,False,False,False,False,2,681,False,False,Normal,False,False,False,False,False,Cover 2,RB Power,22,8,0
+44,11,False,2,7,7,6,False,True,77,False,False,False,False,False,False,False,False,False,2,649,False,False,Normal,False,False,False,False,False,Cover 2,RB Dive,26,5,0
+45,2,False,1,7,7,10,False,False,88,False,False,False,False,False,False,False,False,False,2,636,False,False,Normal,False,False,False,False,False,Cover 2,PA Deep Prayer,7,5,0
+46,10,False,2,7,13,8,False,True,90,True,False,False,False,False,False,False,False,False,2,593,False,False,Normal,False,False,False,False,False,Cover 0,PA TE Cross RB Wheel,37,5,0
+47,0,False,0,7,14,0,False,False,98,False,False,False,False,False,False,True,False,False,2,553,True,False,XP,False,False,False,False,False,FG Block,Field Goal,32,7,0
+48,75,False,0,7,14,0,False,False,25,False,False,False,False,False,False,False,False,False,2,553,False,True,Kickoff,False,False,False,False,True,Kickoff Return,Kickoff,32,7,0
+49,5,True,1,7,14,10,False,False,25,False,False,False,False,False,False,False,False,False,2,509,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 1 SS Blitz,38,6,0
+50,1,True,2,7,14,5,False,False,30,False,False,False,False,False,False,False,False,False,2,480,False,False,Normal,False,False,False,False,False,Posts,Cover 2,23,5,0
+51,2,True,3,7,14,4,False,False,31,False,False,False,False,False,False,False,False,False,2,460,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Cover 3 Mike Blitz,13,6,0
+52,35,True,4,7,14,2,False,False,33,False,False,False,False,False,False,False,False,False,2,447,False,False,Punt,False,True,False,False,False,Punt,Punt Return,5,7,-1
+53,11,False,1,7,14,10,False,True,33,False,False,False,False,False,False,False,False,False,2,429,False,False,Normal,False,False,False,False,False,Cover 2,PA TE Cross RB Wheel,11,7,0
+54,9,False,1,7,14,10,False,False,44,False,False,False,False,False,False,False,False,False,2,400,False,False,Normal,False,False,False,False,False,Cover 0,PA TE Cross RB Wheel,22,6,0
+55,5,False,2,7,14,1,False,True,53,False,False,False,False,False,False,False,False,False,2,367,False,False,Normal,False,False,False,False,False,Cover 2,Toss,25,7,0
+56,13,False,1,7,14,10,False,True,58,False,False,False,False,False,False,False,False,False,2,334,False,False,Normal,False,False,False,False,False,Cover 4 SS Spy,PA TE Cross RB Wheel,27,5,0
+57,9,False,1,7,14,10,False,False,71,False,False,False,False,False,False,False,False,False,2,289,False,False,Normal,False,False,False,False,False,Cover 4 SS Spy,RB Dive,37,7,0
+58,-1,False,2,7,14,1,False,False,80,False,False,False,False,False,False,False,False,False,2,264,False,False,Normal,False,False,False,False,False,Cover 2,PA TE Cross RB Wheel,19,5,0
+59,-2,False,3,7,14,2,False,False,79,False,False,False,False,False,False,False,False,False,2,234,False,False,Normal,False,False,False,False,False,Cover 1,PA Deep Prayer,23,6,0
+60,0,False,4,7,14,4,False,False,77,False,False,False,True,False,False,False,False,False,2,201,False,False,FG,False,False,False,False,False,FG Block,Field Goal,25,7,0
+61,4,True,1,7,14,10,False,False,23,False,False,False,False,False,False,False,False,False,2,155,False,False,Normal,False,False,False,False,False,RB Dive,Cover 4 SS Spy,39,7,0
+62,2,True,2,7,14,6,False,False,27,False,False,False,False,False,False,False,False,False,2,140,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Cover 3 Mike Blitz,7,7,0
+63,10,True,3,7,14,4,False,True,29,False,False,False,False,False,False,False,False,False,2,127,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Cover 3 Mike Blitz,7,5,0
+64,-1,True,1,7,14,10,False,False,39,False,False,False,False,False,False,False,False,False,2,89,False,False,Normal,False,False,False,False,False,Toss,Cover 2,32,5,0
+65,6,True,2,7,14,11,False,False,38,False,False,False,False,False,False,False,False,False,2,65,False,False,Normal,False,False,False,False,False,RB Power,Cover 0,17,6,0
+66,0,True,3,7,14,5,False,False,44,False,False,False,False,False,False,False,False,False,2,28,False,False,Normal,False,False,False,False,False,Posts,Cover 2,28,8,0
+67,32,True,4,7,14,5,False,False,44,False,False,False,False,False,False,False,False,False,3,900,False,True,Punt,False,True,False,False,False,Punt,Punt Return,28,8,-5
+68,11,False,1,7,14,10,False,True,29,False,False,False,False,False,False,False,False,False,3,862,False,False,Normal,False,False,False,False,False,Cover 0,Posts,30,8,0
+69,5,False,1,7,14,10,False,False,40,False,False,False,False,False,False,False,False,False,3,848,False,False,Normal,False,False,False,False,False,Cover 4,RB Power,5,8,0
+70,9,False,2,7,14,5,False,True,45,False,False,False,False,False,False,False,False,False,3,822,False,False,Normal,False,False,False,False,False,Cover 2,PA Deep Prayer,18,7,0
+71,10,False,1,7,14,10,False,True,54,False,False,False,False,False,False,False,False,False,3,784,False,False,Normal,False,False,False,False,False,Cover 1,RB Weakside Dive,32,5,0
+72,5,False,1,7,14,10,False,False,64,False,False,False,False,False,False,False,False,False,3,755,False,False,Normal,False,False,False,False,False,Cover 2,PA Deep Prayer,20,8,0
+73,5,False,2,7,14,5,False,True,69,False,False,False,False,False,False,False,False,False,3,708,False,False,Normal,False,False,False,False,False,Cover 2,PA TE Cross RB Wheel,39,7,0
+74,7,False,1,7,14,10,False,False,74,False,False,False,False,False,False,False,False,False,3,696,False,False,Normal,False,False,False,False,False,Cover 0,RB Dive,6,5,0
+75,-2,False,2,7,14,3,False,False,81,False,False,False,False,False,False,False,False,False,3,655,False,False,Normal,False,False,False,False,False,Cover 2,RB Dive,32,8,0
+76,9,False,3,7,14,5,False,True,79,False,False,False,False,False,False,False,False,False,3,611,False,False,Normal,False,False,False,False,False,Cover 2,RB Dive,36,7,0
+77,1,False,1,7,14,10,False,False,88,False,False,False,False,False,False,False,False,False,3,582,False,False,Normal,False,False,False,False,False,Cover 2,Hitches,20,8,0
+78,-2,False,2,7,14,9,False,False,89,False,False,False,False,False,False,False,False,False,3,539,False,False,Normal,False,False,False,False,False,Cover 1,Posts,36,6,0
+79,2,False,3,7,14,11,False,False,87,False,False,False,False,False,False,False,False,False,3,513,False,False,Normal,False,False,False,False,False,Cover 2,PA TE Cross RB Wheel,17,8,0
+80,0,False,4,7,14,9,False,False,89,False,False,False,True,False,False,False,False,False,3,472,False,False,FG,False,False,False,False,False,FG Block,Field Goal,33,7,0
+81,13,True,1,7,14,10,False,True,11,False,False,False,False,False,False,False,False,False,3,460,False,False,Normal,False,False,False,False,False,RB Weakside Dive,All Out Blitz,6,6,0
+82,8,True,1,7,14,10,False,False,24,False,False,False,False,False,False,False,False,False,3,428,False,False,Normal,False,False,False,False,False,RB Dive,All Out Blitz,26,5,0
+83,-2,True,2,7,14,2,False,False,32,False,False,False,False,False,False,False,False,False,3,401,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 4 SS Spy,20,6,0
+84,-2,True,3,7,14,4,False,False,30,False,False,False,False,False,False,False,False,False,3,364,False,False,Normal,False,False,False,False,False,RB Weakside Dive,Cover 3 Mike Blitz,28,8,0
+85,37,True,4,7,14,6,False,False,28,False,False,False,False,False,False,False,False,False,3,337,False,False,Punt,False,True,False,False,False,Punt,Punt Return,20,6,-9
+86,-2,False,1,7,14,10,False,False,44,False,False,False,False,False,False,False,False,False,3,316,False,False,Normal,False,False,False,False,False,Cover 4,RB Dive,16,5,0
+87,0,False,2,7,14,12,False,False,42,False,False,False,False,False,False,False,False,False,3,293,False,False,Normal,False,False,False,False,False,Cover 3 Mike Blitz,Hitches,16,6,0
+88,-3,False,3,7,14,12,False,False,42,False,False,False,False,False,False,False,False,False,3,256,False,False,Normal,False,False,False,False,False,Cover 3 Mike Blitz,PA TE Cross RB Wheel,31,5,0
+89,31,False,4,7,14,15,False,False,39,False,False,False,False,False,False,False,False,False,3,221,False,False,Punt,False,True,False,False,False,Punt Return,Punt,28,6,-9
+90,4,True,1,7,14,10,False,False,39,False,False,False,False,False,False,False,False,False,3,202,False,False,Normal,False,False,False,False,False,PA TE Cross RB Wheel,Cover 2,11,8,0
+91,-1,True,2,7,14,6,False,False,43,False,False,False,False,False,False,False,False,False,3,172,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 2,21,8,0
+92,3,True,3,7,14,7,False,False,42,False,False,False,False,False,False,False,False,False,3,145,False,False,Normal,False,False,False,False,False,Posts,All Out Blitz,21,5,0
+93,31,True,4,7,14,4,False,False,45,False,False,False,False,False,False,False,False,False,3,103,False,False,Punt,False,True,False,False,False,Punt,Punt Return,36,5,-3
+94,-2,False,1,7,14,10,False,False,27,False,False,False,False,False,False,False,False,False,3,69,False,False,Normal,False,False,False,False,False,Cover 3 Mike Blitz,PA Deep Prayer,28,6,0
+95,11,False,2,7,14,12,False,False,25,False,False,False,False,False,False,False,False,False,3,40,False,False,Normal,False,False,False,False,False,Cover 2,PA Deep Prayer,21,7,0
+96,11,False,3,7,14,1,False,True,36,False,False,False,False,False,False,False,False,False,3,19,False,False,Normal,False,False,False,False,False,Cover 1,RB Power,12,8,0
+97,5,False,1,7,14,10,False,False,47,False,False,False,False,False,False,False,False,False,4,900,False,False,Normal,False,False,False,False,False,Cover 4 SS Spy,RB Weakside Dive,34,5,0
+98,6,False,2,7,14,5,False,True,52,False,False,False,False,False,False,False,False,False,4,878,False,False,Normal,False,False,False,False,False,Cover 3 Mike Blitz,Toss,16,5,0
+99,6,False,1,7,14,10,False,False,58,False,False,False,False,False,False,False,False,False,4,840,False,False,Normal,False,False,False,False,False,Cover 0,RB Power,32,5,0
+100,5,False,2,7,14,4,False,True,64,False,False,False,False,False,False,False,False,False,4,812,False,False,Normal,False,False,False,False,False,Cover 3 Mike Blitz,PA Deep Prayer,21,6,0
+101,10,False,1,7,14,10,False,True,69,False,False,False,False,False,False,False,False,False,4,800,False,False,Normal,False,False,False,False,False,Cover 2,PA TE Cross RB Wheel,6,5,0
+102,13,False,1,7,14,10,False,True,79,False,False,False,False,False,False,False,False,False,4,768,False,False,Normal,False,False,False,False,False,All Out Blitz,Toss,23,8,0
+103,-1,False,1,7,14,10,False,False,92,False,False,False,False,False,False,False,False,False,4,744,False,False,Normal,False,False,False,False,False,Cover 4 SS Spy,PA Deep Prayer,15,8,0
+104,0,False,2,7,14,11,False,False,91,False,False,False,False,False,False,False,False,False,4,704,False,False,Normal,False,False,False,False,False,Cover 1,PA Deep Prayer,31,8,0
+105,9,False,3,7,20,11,False,True,91,True,False,False,False,False,False,False,False,False,4,658,False,False,Normal,False,False,False,False,False,Cover 2,PA Deep Prayer,38,7,0
+106,0,False,0,7,21,0,False,False,98,False,False,False,False,False,False,True,False,False,4,617,True,False,XP,False,False,False,False,False,FG Block,Field Goal,34,6,0
+107,75,False,0,7,21,0,False,False,25,False,False,False,False,False,False,False,False,False,4,617,False,True,Kickoff,False,False,False,False,True,Kickoff Return,Kickoff,34,6,0
+108,8,True,1,7,21,10,False,False,25,False,False,False,False,False,False,False,False,False,4,572,False,False,Normal,False,False,False,False,False,RB Dive,Cover 2,37,8,0
+109,12,True,2,7,21,2,False,True,33,False,False,False,False,False,False,False,False,False,4,529,False,False,Normal,False,False,False,False,False,RB Power,Cover 2,36,6,0
+110,12,True,1,7,21,10,False,True,45,False,False,False,False,False,False,False,False,False,4,507,False,False,Normal,False,False,False,False,False,RB Weakside Dive,All Out Blitz,13,8,0
+111,0,True,1,7,21,10,False,False,57,False,False,False,False,False,False,False,False,False,4,490,False,False,Normal,False,False,False,False,False,Hitches,Cover 2,8,8,0
+112,9,True,2,7,21,10,False,False,57,False,False,False,False,False,False,False,False,False,4,474,False,False,Normal,False,False,False,False,False,PA TE Cross RB Wheel,Cover 1,9,6,0
+113,10,True,3,7,21,1,False,True,66,False,False,False,False,False,False,False,False,False,4,444,False,False,Normal,False,False,False,False,False,RB Power,Cover 3 Mike Blitz,23,6,0
+114,-3,True,1,7,21,10,False,False,76,False,False,False,False,False,False,False,False,False,4,418,False,False,Normal,False,False,False,False,False,Toss,All Out Blitz,19,6,0
+115,-1,True,2,7,21,13,False,False,73,False,False,False,False,False,False,False,False,False,4,399,False,False,Normal,False,False,False,False,False,Posts,Cover 4,10,8,0
+116,7,True,3,7,21,14,False,False,72,False,False,False,False,False,False,False,False,False,4,386,False,False,Normal,False,False,False,False,False,Toss,Cover 1,6,6,0
+117,0,True,4,10,21,7,False,False,79,False,False,True,False,False,False,False,False,False,4,355,False,False,FG,False,False,False,False,False,Field Goal,FG Block,24,6,0
+118,75,True,0,10,21,0,False,False,25,False,False,False,False,False,False,False,False,False,4,338,False,True,Kickoff,False,False,False,False,True,Kickoff,Kickoff Return,12,5,0
+119,14,False,1,10,21,10,False,True,25,False,False,False,False,False,False,False,False,False,4,298,False,False,Normal,False,False,False,False,False,All Out Blitz,RB Weakside Dive,35,5,0
+120,-1,False,1,10,21,10,False,False,39,False,False,False,False,False,False,False,False,False,4,280,False,False,Normal,False,False,False,False,False,Cover 2,Toss,12,5,0
+121,0,False,2,10,21,11,False,False,38,False,False,False,False,False,False,False,False,False,4,244,False,False,Normal,False,False,False,False,False,Cover 2,RB Power,29,6,0
+122,-1,False,3,10,21,11,False,False,38,False,False,False,False,False,False,False,False,False,4,221,False,False,Normal,False,False,False,False,False,Cover 2,RB Weakside Dive,16,6,0
+123,31,False,4,10,21,12,False,False,37,False,False,False,False,False,False,False,False,False,4,187,False,False,Punt,False,True,False,False,False,Punt Return,Punt,25,8,-9
+124,3,True,1,10,21,10,False,False,41,False,False,False,False,False,False,False,False,False,4,157,False,False,Normal,False,False,False,False,False,PA Deep Prayer,Cover 0,25,5,0
+125,3,True,2,10,21,7,False,False,44,False,False,False,False,False,False,False,False,False,4,134,False,False,Normal,False,False,False,False,False,Hitches,Cover 1,15,7,0
+126,13,True,3,10,21,4,False,True,47,False,False,False,False,False,False,False,False,False,4,121,False,False,Normal,False,False,False,False,False,RB Power,Cover 1 SS Blitz,5,7,0
+127,2,True,1,10,21,10,False,False,60,False,False,False,False,False,False,False,False,False,4,106,False,False,Normal,False,False,False,False,False,RB Power,Cover 2,9,5,0
+128,13,True,2,10,21,8,False,True,62,False,False,False,False,False,False,False,False,False,4,78,False,False,Normal,False,False,False,False,False,RB Dive,All Out Blitz,22,5,0
+129,7,True,1,10,21,10,False,False,75,False,False,False,False,False,False,False,False,False,4,34,False,False,Normal,False,False,False,False,False,Posts,Cover 2,37,6,0

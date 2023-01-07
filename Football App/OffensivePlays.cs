@@ -11,7 +11,7 @@ namespace FootballApp
     {
         public OffensivePlays(
             string playTeam,
-            string playType, 
+            string playType,
             string playFormation,
             string playCategory,
             string playName,
@@ -21,21 +21,13 @@ namespace FootballApp
             int teCount,
             bool isPA,
             string strongSide,
-            string l1,
-            string l2,
-            string l3,
-            string l4,  
-            string l5,
-            string l6,
-            string l7,
-            string l8,
-            string l9,
-            string l10,
+            string[] blockers,
             string runner,
             int runnerTarget,
-            string bBlocker1,
-            string bBlocker2,
-            string bBlocker3,
+            string[] bBlockers,
+            //string bBlocker1,
+            //string bBlocker2,
+            //string bBlocker3,
             string specialist,
             string target1,
             string target1zone,
@@ -65,21 +57,13 @@ namespace FootballApp
             TeCount = teCount;
             IsPA = isPA;
             StrongSide = strongSide;
-            L1 = l1;
-            L2 = l2;
-            L3 = l3;
-            L4 = l4;
-            L5 = l5;
-            L6 = l6;
-            L7 = l7;
-            L8 = l8;
-            L9 = l9;
-            L10 = l10;
+            Blockers = blockers;
             Runner = runner;
             RunnerTarget = runnerTarget;
-            BBlocker1 = bBlocker1;
-            BBlocker2 = bBlocker2;
-            BBlocker3 = bBlocker3;
+            BBlockers = bBlockers;
+            //BBlocker1 = bBlocker1;
+            //BBlocker2 = bBlocker2;
+            //BBlocker3 = bBlocker3;
             Specialist = specialist;
             Target1 = target1;
             Target1zone = target1zone;
@@ -111,21 +95,15 @@ namespace FootballApp
         public int TeCount { get; set; } 
         public bool IsPA { get; set; }
         public string StrongSide { get; set; }
-        public string L1 { get; set; }
-        public string L2 { get; set; }
-        public string L3 { get; set; }
-        public string L4 { get; set; }
-        public string L5 { get; set; }
-        public string L6 { get; set; }
-        public string L7 { get; set; }
-        public string L8 { get; set; }
-        public string L9 { get; set; } 
-        public string L10 { get; set; }
+        public string[] Blockers { get; set; }
         public string Runner { get; set; }
         public int RunnerTarget { get; set; }
-        public string BBlocker1 { get; set; }
-        public string BBlocker2 { get; set; }
-        public string BBlocker3 { get; set; }
+
+        public string[] BBlockers { get; set; }
+
+        //public string BBlocker1 { get; set; }
+        //public string BBlocker2 { get; set; }
+        //public string BBlocker3 { get; set; }
         public string Specialist { get; set; }
         public string Target1 { get; set; }
         public string Target1zone { get; set; }

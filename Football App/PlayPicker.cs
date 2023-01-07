@@ -32,9 +32,12 @@ namespace FootballApp
                     if (_randomNumber < p.TotalPlayWeight)
                     {
                         selectedhplay = p;
-                        //Console.WriteLine("Selected Play is: " + selectedhplay.PlayName);
+                        GameValues._passer = selectedhplay.Specialist;
+                        GameValues._rusher = selectedhplay.Runner;
                         GameValues._hplaycalltype = selectedhplay.PlayType;
                         GameValues._hplaycall = selectedhplay.PlayName;
+                        //Console.WriteLine("Selected Play is: " + selectedhplay.PlayName);
+                        //Console.WriteLine("Passer is: " + selectedhplay.Specialist + "and Runner is: " + selectedhplay.Runner);
                         return selectedhplay;
 
                     }
@@ -62,6 +65,8 @@ namespace FootballApp
                     {
                         selectedaplay = p;
                         //Console.WriteLine("Selected Play is: " + selectedaplay.PlayName);
+                        GameValues._passer = selectedaplay.Specialist;
+                        GameValues._rusher = selectedaplay.Runner;
                         GameValues._aplaycalltype = selectedaplay.PlayType;
                         GameValues._aplaycall = selectedaplay.PlayName;
                         return selectedaplay;

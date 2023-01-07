@@ -65,7 +65,7 @@ public class GameValues
         public static int _kpreturnyards = 0;
         public static int _dreturnyards = 0;
         public static int _kickyards = 0;
-        public static string _ballcarrier = "";
+        public static string _rusher = "";
         public static string _tackler = "";
         public static string _passer = "";
         public static string _reciever = "";
@@ -91,10 +91,10 @@ public class GameValues
             get { return _tackler; }
             set { _tackler = value; }
         }
-        public string BallCarrier
+        public string Rusher
         {
-            get { return _ballcarrier; }
-            set { _ballcarrier = value; }
+            get { return _rusher; }
+            set { _rusher = value; }
         }
 
         public int KickYards

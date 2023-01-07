@@ -46,7 +46,7 @@ namespace FootballApp
         public int _kpreturnyards = 0;
         public int _dreturnyards = 0;
         public int _kickyards = 0;
-        public string _ballcarrier = "";
+        public string _rusher = "";
         public string _tackler = "";
         public string _passer = "";
         public string _reciever = "";
@@ -72,10 +72,10 @@ namespace FootballApp
             get { return _tackler; }
             set { _tackler = value; }
         }
-        public string BallCarrier
+        public string Rusher
         {
-            get { return _ballcarrier; }
-            set { _ballcarrier = value; }
+            get { return _rusher; }
+            set { _rusher = value; }
         }
         public int KickYards
         {
@@ -315,7 +315,7 @@ namespace FootballApp
             int dreturnyards,
             int kickyards,
             bool fgbad,
-            string ballcarrier,
+            string rusher,
             string tackler,
             string passer,
             string reciever,
@@ -358,7 +358,7 @@ namespace FootballApp
             this._dreturnyards = dreturnyards;
             this._kickyards = kickyards;
             this._fgbad = fgbad;
-            this._ballcarrier = ballcarrier;
+            this._rusher = rusher;
             this._tackler = tackler;
             this._passer = passer;
             this._reciever = reciever;

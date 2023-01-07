@@ -19,18 +19,19 @@ namespace FootballApp
             {
                 //Console.WriteLine("Name: " + e);
                 Console.WriteLine(
-                    "Play ID: " + e.PlayID + "\t"
-                    + "Q: " + e.Quarter + " "
-                    + "Time: " + (e.Time/60).ToString("D2") + ":" + (e.Time % 60).ToString("D2") + "\t"
-                    + "LOS: " + String.Format("{0, 3}", e.Los) + " "
+                    "Play ID: " + String.Format("{0, 4}", e.PlayID) + " "
+                    + "Q: " + e.Quarter + " | " + (e.Time/60).ToString("D2") + ":" + (e.Time % 60).ToString("D2") + " "
+                    + "LOS: " + String.Format("{0, 2}", e.Los) + " "
                     + "Poss: " + e.HomePossession + "\t"
-                    + "Down: " + e.Down + "\t"
-                    + "YTG: " + String.Format("{0, 2}", e.YardsToGo) + " "
-                    + "PlayType: " + String.Format("{0, 11}", e.PlayType) + "\t"
-                    + "HPC: " + String.Format("{0, 14}", e.HPlayCall) + "\t"
-                    + "APC: " + String.Format("{0, 14}", e.APlayCall) + "\t"
-                    + "Yardage: " + e.Yardage + "\t"
-                    + "Touchdown: " + TouchdownTextEval(e._td, e._dtd) + "\t"
+                    + "Down: " + e.Down + " &" + String.Format("{0, 2}", e.YardsToGo) + " "
+                    + "PlayType: " + String.Format("{0, 9}", e.PlayType) + " "
+                    + "Tkl: " + String.Format("{0, 5}", e.Tackler) + " "
+                    + "Pass: " + String.Format("{0, 5}", e.Passer) + " "
+                    + "Rush: " + String.Format("{0, 5}", e.Rusher) + " "
+                    + "HPC: " + String.Format("{0, 22}", e.HPlayCall) + " "
+                    + "APC: " + String.Format("{0, 22}", e.APlayCall) + " "
+                    + "Yardage: " + String.Format("{0, 2}", e.Yardage) + " "
+                    //+ "Touchdown: " + TouchdownTextEval(e._td, e._dtd) + "\t"
                     + "Home: " + String.Format("{0, 3}", e.HtScore) + "\t"
                     + "Away: " + String.Format("{0, 3}", e.AtScore)
                     );

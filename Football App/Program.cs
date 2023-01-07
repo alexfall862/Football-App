@@ -73,8 +73,8 @@ namespace FootballApp
                         gv.DReturnYards,
                         gv.KickYards,
                         gv.FgBad,
+                        gv.Rusher,
                         gv.Tackler,
-                        gv.BallCarrier,
                         gv.Passer,
                         gv.Reciever,
                         gv.Defender
@@ -85,7 +85,7 @@ namespace FootballApp
                 gv.Quarter++;
             }
             p.PrintPlays(ListofPlayStatus);
-            p.SaveToTxt(ListofPlayStatus);
+            //p.SaveToTxt(ListofPlayStatus);
             //p.TestofSearch(ListofPlays);
 
         }
